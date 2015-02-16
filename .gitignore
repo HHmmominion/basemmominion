@@ -1,2 +1,3 @@
 *.cfg
 settings.ini
+*settings.lua
