@@ -1,0 +1,543 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["PVP Marker"] = {
+		["Flame Outpost"] = {
+			["order"] = 0;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "PVP Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 15;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -16;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.334387421608;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Flame Outpost";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 165.18780517578;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 97.291320800781;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Serpent Outpost"] = {
+			["order"] = 0;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "PVP Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 15;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -16;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.9264540672302;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Serpent Outpost";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 3.2079682350159;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -190.6340637207;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Allagan Manors"] = {
+			["order"] = 3;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "PVP Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 15;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 8;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 2.1063892841339;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Allagan Manors";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -251.79724121094;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -146.60371398926;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Allagan Markets"] = {
+			["order"] = 0;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "PVP Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 15;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 8;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -2.3456416130066;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Allagan Markets";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 250.15592956543;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -148.77268981934;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Storm Outpost"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "PVP Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 15;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -16;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 2.0920405387878;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Storm Outpost";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -170.38235473633;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 97.892158508301;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Allagan Sun Temple"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "PVP Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 15;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 8;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.7029904127121;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Allagan Sun Temple";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -2.1404023170471;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 285.80700683594;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+	};
+}
+return obj1

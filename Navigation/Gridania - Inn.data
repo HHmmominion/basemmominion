@@ -1,0 +1,28 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 177;
+	["AllowedMapIDs"] = {
+		[177] = 177;
+		[179] = 179;
+	};
+	["AvoidanceAreas"] = {
+	};
+	["Obstacles"] = {
+	};
+	["Name"] = "Gridania - Inn";
+	["MarkerList"] = {
+	};
+	["LastPlayerPosition"] = {
+		["y"] = 0;
+		["x"] = 0;
+		["z"] = 0;
+		["hx"] = 0;
+		["hy"] = 0;
+		["hz"] = 0;
+		["h"] = 0;
+	};
+}
+return obj1

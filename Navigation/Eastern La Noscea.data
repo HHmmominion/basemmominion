@@ -1,0 +1,31 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["isa"] = nil --[[functions with upvalue not supported]];
+	["MapID"] = 137;
+	["superClass"] = nil --[[functions with upvalue not supported]];
+	["AllowedMapIDs"] = {
+		[137] = 137;
+	};
+	["class"] = nil --[[functions with upvalue not supported]];
+	["Create"] = nil --[[functions with upvalue not supported]];
+	["Obstacles"] = {
+	};
+	["Name"] = "Eastern La Noscea";
+	["MarkerList"] = {
+	};
+	["LastPlayerPosition"] = {
+		["y"] = 0;
+		["x"] = 0;
+		["z"] = 0;
+		["hx"] = 0;
+		["hy"] = 0;
+		["hz"] = 0;
+		["h"] = 0;
+	};
+	["AvoidanceAreas"] = {
+	};
+}
+return obj1

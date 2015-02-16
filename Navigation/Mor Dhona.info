@@ -1,0 +1,1725 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Fishing Marker"] = {
+		["Fishing - The North Shards"] = {
+			["order"] = 4;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Caddisfly Larva";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 458.55;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1228;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -4.55;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - The North Shards";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -747.7;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.639;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Fishing - Singing Shards"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Glowworm";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 499.05;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 45;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1032;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -3.09;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - Singing Shards";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -450.57;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -0.597;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Fishing - North Silvertear"] = {
+			["order"] = 3;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Glowworm";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 156.97;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 45;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 982;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -27.68;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - North Silvertear";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -430.76;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -0.277;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Fishing - The Deep Tangle"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Glowworm";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -431.16;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 45;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1301;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -16.25;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - The Deep Tangle";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -495.76;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -2.349;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Fishing - Rathefrost"] = {
+			["order"] = 5;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Caddisfly Larva";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -119.04;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1790;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 46.18;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - Rathefrost";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -186.65;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.492;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Fishing - The Tangle"] = {
+			["order"] = 6;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Caddisfly Larva";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -434.77;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1049;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -16.65;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - The Tangle";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -353.58;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.084;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+	};
+	["evacPoint"] = {
+		["y"] = 20.295000076294;
+		["x"] = 39.844120025635;
+		["h"] = -3.1399629116058;
+		["z"] = -660.42889404297;
+	};
+	["Grind Marker"] = {
+		["Gigas_Shramana"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Grind Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["value"] = 647;
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 300;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -5.8564291000366;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["h"] = {
+					["choices"] = "";
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Gigas_Shramana";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -460.48379516602;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 380.83367919922;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["5th_Cohort_Signifer"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Grind Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["h"] = {
+					["choices"] = "";
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 300;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -4.8564291000366;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -511.83367919922;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "5th_Cohort_Signifer";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -441.48379516602;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["value"] = 1813;
+					["order"] = 13;
+					["choices"] = "";
+				};
+			};
+		};
+	};
+	["Unspoiled Marker"] = {
+		["Cluster M 21"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 2.2827334403992;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "3";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -2.9324288368225;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 300.67877197266;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Cluster M 21";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Fire Clusters";
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,Water Clusters,Wind Clusters";
+					["order"] = 19;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -541.87084960938;
+					["choices"] = "";
+					["order"] = 4;
+				};
+			};
+		};
+		["Cluster M 17"] = {
+			["order"] = 2;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.7289018630981;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "7";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -2.8382203578949;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 301.41146850586;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Cluster M 17";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Earth Clusters";
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,Water Clusters,Wind Clusters";
+					["order"] = 19;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -544.08489990234;
+					["choices"] = "";
+					["order"] = 4;
+				};
+			};
+		};
+		["Cluster B 1"] = {
+			["order"] = 6;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -0.54525470733643;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "4";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -0.69945323467255;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 517.78466796875;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Cluster B 1";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Wind Clusters";
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,Water Clusters,Wind Clusters";
+					["order"] = 19;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -444.81420898438;
+					["choices"] = "";
+					["order"] = 4;
+				};
+			};
+		};
+		["Cluster B 5"] = {
+			["order"] = 4;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -2.9521369934082;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "5";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -4.8022127151489;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 506.9563293457;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Cluster B 5";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Water Clusters";
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,Water Clusters,Wind Clusters";
+					["order"] = 19;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -412.51361083984;
+					["choices"] = "";
+					["order"] = 4;
+				};
+			};
+		};
+		["Cluster M 13"] = {
+			["order"] = 5;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["order"] = 13;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.64342957735062;
+					["order"] = 5;
+					["choices"] = "";
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "2";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "0";
+					["order"] = 18;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["order"] = 17;
+					["choices"] = "Any,Peisteskin Only,None";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -3.1587650775909;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 296.79251098633;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Cluster M 13";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -546.22332763672;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Lightning Clusters";
+					["order"] = 19;
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,Water Clusters,Wind Clusters";
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "1";
+					["order"] = 16;
+					["choices"] = "";
+				};
+			};
+		};
+		["Cluster B 9"] = {
+			["order"] = 3;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -3.1385488510132;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "6";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -5.4619455337524;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 506.97863769531;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Cluster B 9";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Ice Clusters";
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,Water Clusters,Wind Clusters";
+					["order"] = 19;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -408.4303894043;
+					["choices"] = "";
+					["order"] = 4;
+				};
+			};
+		};
+	};
+}
+return obj1

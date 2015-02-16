@@ -1,0 +1,31 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["isa"] = ;
+	["MapID"] = 204;
+	["superClass"] = ;
+	["AllowedMapIDs"] = {
+		[204] = 204;
+	};
+	["class"] = ;
+	["Create"] = ;
+	["Obstacles"] = {
+	};
+	["Name"] = "Limsa Lominsa - Command";
+	["MarkerList"] = {
+	};
+	["LastPlayerPosition"] = {
+		["y"] = 0;
+		["x"] = 0;
+		["z"] = 0;
+		["hx"] = 0;
+		["hy"] = 0;
+		["hz"] = 0;
+		["h"] = 0;
+	};
+	["AvoidanceAreas"] = {
+	};
+}
+return obj1

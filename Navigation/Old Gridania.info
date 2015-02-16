@@ -1,0 +1,13 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["evacPoint"] = {
+		["y"] = 6.9821219444275;
+		["x"] = -73.904197692871;
+		["h"] = 1.1361696720123;
+		["z"] = -136.49520874023;
+	};
+}
+return obj1

@@ -1,0 +1,29 @@
+<div class="singlebotdisplay"  id="bot_<%id%>" >
+	<div style="float:right;margin-top:5px"> <ul id="cmds" class="ui-widget ui-helper-clearfix">
+	<li class="ui-state-default ui-corner-all btn" title="Exit Guild Wars 2"><a id="cmd_exit_<%id%>" href="<%cmd%>ExitGW2"class="ui-icon ui-icon-power"></a></li>
+	</ul>
+	</div>
+	<p style="margin-top:15px;margin-bottom:10px"><span style="font-size:18" id="name_<%id%>"></span></p>
+	<p><div id="hpbar_<%id%>" ><span style="height:25px"id="hpbar-label_<%id%>" class="progress-label"></span></div></p>
+	<p>Target: <span style="float:right" id="target_<%id%>"></span></p>
+	<p>Endurance: <span style="float:right" id="endurance_<%id%>"></span></p>
+	<p>Money: <span style="float:right" id="money_<%id%>"></span></p>
+	<p>Slots Free:<span style="float:right" id="freeslots_<%id%>"></span></p>
+	<p>Role:<span style="float:right" id="role_<%id%>"></span></p>		
+	<p>State:<span style="float:right" id="state_<%id%>"></span></p>
+	<p>Effect:<span style="float:right"  id="effect_<%id%>"></span></p>
+	<p>Pos:<span style="float:right" id="pos_<%id%>"></span></p>
+	<p>On Mesh:<span style="float:right" id="onmesh_<%id%>"></span></p>
+	<p>Running:<span style="float:right" id="running_<%id%>"></span></p>
+	
+	<ul style="margin-top:10px;" id="cmds" class="ui-widget ui-helper-clearfix">
+	<li class="ui-state-default ui-corner-all btn" title="Stop Bot"><a id="cmd_toggle_<%id%>" href="<%cmd%>Stop" class="ui-icon ui-icon-pause"></a ></li>
+	<li class="ui-state-default ui-corner-all btn" title="Teleport"><a id="cmd_teleport_<%id%>" href="<%cmd%>Teleport" class="ui-icon ui-icon-transferthick-e-w"></a ></li>	
+	<li class="ui-state-default ui-corner-all btn" style="float:right" title="Show Graphs"><a id="showgraphs_<%id%>" href="graphs_<%id%>" class="ui-icon ui-icon-circle-triangle-s"></a ></li>	
+    </ul>
+	
+	<div style="padding-top:5px;display:none" id="graphs_<%id%>" >
+		<div id="gph_<%id%>" style="height:200px;width:200px;"></div> 
+	</div>
+</div>
+	

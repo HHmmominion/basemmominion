@@ -1,0 +1,114 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 5000;
+			["doKill"] = true;
+			["killto%"] = 01;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 22.0;
+					["x"] = -71.08;
+					["h"] = 1.59;
+					["z"] = -0.90;
+				};
+			};
+			["bossIDs"] = "2665;";
+		};
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["failTime"] = 10000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 2.02;
+					["x"] = -71.08;
+					["h"] = 1.59;
+					["z"] = -0.90;
+				};
+			};
+			["bossIDs"] = "2665;";
+		};
+		[3] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["failTime"] = 10000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 2.02;
+					["x"] = -71.08;
+					["h"] = 1.59;
+					["z"] = -0.90;
+				};
+			};
+			["bossIDs"] = "2665;";
+		};
+		[4] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 12.02;
+					["x"] = -21.11;
+					["h"] = 1.54;
+					["z"] = -0.82;
+				};
+			};
+			["bossIDs"] = "2668;2669;";
+		};
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 12.02;
+					["x"] = 28.86;
+					["h"] = 1.54;
+					["z"] = 2.54;
+				};
+			};
+			["bossIDs"] = "2668;2669;";
+		};
+		[6] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 5.00;
+					["x"] = 109.88;
+					["h"] = 1.56;
+					["z"] = -0.69;
+				};
+			};
+			["bossIDs"] = "2665;";
+		};
+	};
+	["MapID"] = 366;
+	["EncounterIndex"] = 1;
+};
+return obj1

@@ -1,0 +1,29 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 156;
+	["Name"] = "Mor Dhona";
+	["LastPlayerPosition"] = {
+		["y"] = 0;
+		["x"] = 0;
+		["z"] = 0;
+		["hx"] = 0;
+		["hy"] = 0;
+		["hz"] = 0;
+		["h"] = 0;
+	};
+	["AllowedMapIDs"] = {
+		[156] = 156;
+		[351] = 351;
+		[379] = 379;
+	};
+	["AvoidanceAreas"] = {
+	};
+	["MarkerList"] = {
+	};
+	["Obstacles"] = {
+	};
+}
+return obj1

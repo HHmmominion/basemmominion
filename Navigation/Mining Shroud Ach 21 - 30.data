@@ -1,0 +1,32 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["isa"] = nil --[[thread]]
+;
+	["MapID"] = 152;
+	["superClass"] = nil --[[thread]]
+;
+	["AllowedMapIDs"] = {
+		[152] = 152;
+	};
+	["class"] = nil --[[thread]]
+;
+	["Create"] = nil --[[thread]]
+;
+	["Obstacles"] = {
+	};
+	["Name"] = "";
+	["MarkerList"] = {
+	};
+	["LastPlayerPosition"] = {
+		["y"] = -0.39548999071121;
+		["x"] = -59.437210083008;
+		["h"] = 1.4055531024933;
+		["z"] = 348.41818237305;
+	};
+	["AvoidanceAreas"] = {
+	};
+}
+return obj1

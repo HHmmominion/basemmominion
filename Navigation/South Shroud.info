@@ -1,0 +1,2056 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Fishing Marker"] = {
+		["Fishing - Urth's Gift"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = 435.38;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 45;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 2132;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 0.95;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = 1.425;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - Urth's Gift";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = 157.82;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 50;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Glowworm";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+		["Fishing - Lower Hathoeva River"] = {
+			["order"] = 6;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = -166.14;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 25;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 1379;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 0.15;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = -2.241;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - Lower Hathoeva River";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = 156.01;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 30;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Bass Ball";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+		["Fishing - Upper Hathoeva River"] = {
+			["order"] = 5;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = -114.41;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 20;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 1240;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 2.35;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = -2.492;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - Upper Hathoeva River";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = -67.83;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 25;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Butterworm";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+		["Fishing - Rootslake"] = {
+			["order"] = 4;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = -140.98;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 35;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 1414;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 0.24;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = 0.251;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - Rootslake";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = 255.84;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 40;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Honey Worm";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+		["Fishing - Middle Hathoeva River"] = {
+			["order"] = 3;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = -87.02;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 30;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 1828;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 0.15;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = 1.568;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - Middle Hathoeva River";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = 49.66;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 35;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Syrphid Basket";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+		["Fishing - Goblinblood"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = 299.61;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 30;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 1782;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = -0.05;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = 0.747;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - Goblinblood";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = -6.42;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 35;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Syrphid Basket";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+		["Fishing - East Hathoeva River"] = {
+			["order"] = 7;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Fishing Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = 137.11;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Use Stealth"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["order"] = 14;
+				};
+				["Min Level"] = {
+					["value"] = 25;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 1235;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 4.45;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = -0.48;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Fishing - East Hathoeva River";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = 33.37;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Use Mooch"] = {
+					["value"] = "0";
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["order"] = 15;
+				};
+				["Max Level"] = {
+					["value"] = 30;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Bait Name"] = {
+					["value"] = "Bass Ball";
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["order"] = 13;
+				};
+			};
+		};
+	};
+	["Hunt Marker"] = {
+	};
+	["Grind Marker"] = {
+		["Grind Marker53"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = 231.78169250488;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["value"] = 1;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 300;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 18.741010665894;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = -1.7966122627258;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Grind Marker53";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["Max Level"] = {
+					["value"] = 50;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["z"] = {
+					["value"] = -136.54180908203;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+			};
+		};
+	};
+	["Mining Marker"] = {
+		["Mining 40"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 40;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1427;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Mining Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 36;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = -2.02;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = 341.82;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Mining 40";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = 52.59;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = -1.624;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+		["Mining 25"] = {
+			["order"] = 0;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 25;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1056;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Mining Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 21;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = 13.73;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = -285.92;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Mining 25";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = -105.07;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = 1.517;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+	};
+	["Botany Marker"] = {
+		["Botany 35"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 35;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1641;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Botany Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 31;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = -0.42;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = -264.32;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Botany 35";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = 391.55;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = 2.947;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+		["Botany 30"] = {
+			["order"] = 2;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 30;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1628;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Botany Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 26;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = 14.65;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = 244.11;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Botany 30";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = -114.44;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = 2.471;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+		["Botany 40"] = {
+			["order"] = 3;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 40;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1707;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Botany Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 36;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = -0.43;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = 9.03;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Botany 40";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = 331.57;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = -0.402;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+		["Botany 30  #2"] = {
+			["order"] = 4;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 30;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1572;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Botany Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 26;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = 8.86;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = -203.26;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Botany 30  #2";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = 12.22;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = -1.352;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+		["Botany 25"] = {
+			["order"] = 5;
+			["fields"] = {
+				["Max Level"] = {
+					["value"] = 25;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["value"] = 1215;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 16;
+				};
+				["Item Priority 2"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["value"] = "";
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["value"] = "None";
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["type"] = {
+					["value"] = "Botany Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["value"] = 21;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["y"] = {
+					["value"] = 9.05;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = 72.36;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "Botany 25";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["z"] = {
+					["value"] = 9.97;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["h"] = {
+					["value"] = -0.841;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 15;
+				};
+			};
+		};
+	};
+	["evacPoint"] = {
+		["y"] = 21.317266464233;
+		["x"] = -228.77709960938;
+		["h"] = -0.6113486289978;
+		["z"] = 351.09732055664;
+	};
+	["Unspoiled Marker"] = {
+		["Fragrant Log"] = {
+			["order"] = 2;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 2.5348892211914;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "6";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 8.3805055618286;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -167.69142150879;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fragrant Log";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "15-30 Buffs Miner";
+					["choices"] = "None,15-30 Buffs Miner,2Star_40DUR,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Earth Clusters,Fire Clusters,Gladiator,Ice Clusters,Lancer,Lightning Clusters,Marauder,Mass Gathering,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,SMN2.0,Summoner,Thaumaturge,UltimateSummoner-test,UltimateSummoner-v1-1,UltimateSummoner,Water Clusters,Wind Clusters";
+					["order"] = 19;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 104.83959197998;
+					["choices"] = "";
+					["order"] = 4;
+				};
+			};
+		};
+		["Schattenfels"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "400";
+					["order"] = 13;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.41261237859726;
+					["order"] = 5;
+					["choices"] = "";
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "7";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "0";
+					["order"] = 18;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["order"] = 17;
+					["choices"] = "Any,Peisteskin Only,None";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 1.1051051616669;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -185.57473754883;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Schattenfels";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 429.58248901367;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "15-30 Buffs Miner";
+					["order"] = 19;
+					["choices"] = "None,15-30 Buffs Miner,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Gladiator,Lancer,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,Summoner,Thaumaturge";
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 16;
+					["choices"] = "";
+				};
+			};
+		};
+	};
+}
+return obj1

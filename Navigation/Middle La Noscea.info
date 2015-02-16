@@ -1,0 +1,347 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Unspoiled Marker"] = {
+		["La nosc Topsoil"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["Minimum GP"] = {
+					["type"] = "string";
+					["name"] = "Minimum GP";
+					["value"] = "300";
+					["order"] = 13;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1800;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.27581948041916;
+					["order"] = 5;
+					["choices"] = "";
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "3";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["order"] = 18;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Unspoiled Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "None";
+					["order"] = 17;
+					["choices"] = "Any,Peisteskin Only,None";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 50;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 59.501510620117;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 121.09571075439;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "La nosc Topsoil";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 241.66705322266;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Miner Topsoil";
+					["order"] = 19;
+					["choices"] = "None,15-30 Buffs Miner,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Gladiator,Lancer,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,Summoner,Thaumaturge";
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 16;
+					["choices"] = "";
+				};
+			};
+		};
+	};
+	["evacPoint"] = {
+		["y"] = 54.810836791992;
+		["x"] = -14.480898857117;
+		["h"] = -3.1273481845856;
+		["z"] = -289.8740234375;
+	};
+	["Grind Marker"] = {
+		["grind12_15"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+				["h"] = {
+					["value"] = -2.5372309684753;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["value"] = 12;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 2000;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 19.338037490845;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = -349.39486694336;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "grind12_15";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["z"] = {
+					["value"] = -359.0158996582;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["value"] = 15;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+			};
+		};
+		["grind8_11"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+				["h"] = {
+					["value"] = -1.9853855371475;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["value"] = 8;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 2000;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 40.026245117188;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["x"] = {
+					["value"] = -201.17756652832;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["value"] = "grind8_11";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["z"] = {
+					["value"] = -159.57420349121;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["value"] = 11;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+			};
+		};
+	};
+}
+return obj1

@@ -1,0 +1,25 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 134;
+	["AllowedMapIDs"] = {
+		[134] = 134;
+		[156] = 156;
+	};
+	["AvoidanceAreas"] = {
+	};
+	["Obstacles"] = {
+	};
+	["Name"] = "";
+	["MarkerList"] = {
+	};
+	["LastPlayerPosition"] = {
+		["y"] = 24.86442565918;
+		["x"] = -306.49472045898;
+		["h"] = 2.4737315177917;
+		["z"] = -538.42858886719;
+	};
+}
+return obj1

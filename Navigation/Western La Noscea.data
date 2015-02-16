@@ -1,0 +1,24 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 138;
+	["AllowedMapIDs"] = {
+		[138] = 138;
+	};
+	["AvoidanceAreas"] = {
+	};
+	["Obstacles"] = {
+	};
+	["Name"] = "Western La Noscea";
+	["MarkerList"] = {
+	};
+	["LastPlayerPosition"] = {
+		["y"] = -35.202499389648;
+		["x"] = -361.50057983398;
+		["h"] = -3.1343796253204;
+		["z"] = -438.34524536133;
+	};
+}
+return obj1

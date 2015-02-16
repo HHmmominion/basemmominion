@@ -1,0 +1,187 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 363;
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2577";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 129.92901611328;
+					["y"] = 67.120452880859;
+					["z"] = 11.257387161255;
+					["h"] = -2;
+				};
+			};
+			["radius"] = 20;
+		};
+		[2] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2556";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 98.073952;
+					["y"] = 42.084274;
+					["z"] = -28.774868;
+					["h"] = 3.108674;
+				};
+			};
+			["fightPos"] = {
+				["General"] = {
+					["x"] = 120.00428771973;
+					["y"] = 44;
+					["z"] = -52.105461120605;
+					["h"] = -0.8;
+				};
+			};
+			["radius"] = 50;
+		};
+		[3] = {
+			["doWait"] = false;
+			["doKill"] = true;
+			["bossIDs"] = "2561";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -14.199999809265;
+					["y"] = 12;
+					["z"] = 73;
+					["h"] = -1.8;
+				};
+			};
+			["radius"] = 25;
+		};
+		[4] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2560";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -16.700000762939;
+					["y"] = 27.10000038147;
+					["z"] = 73.400001525879;
+					["h"] = -2.8;
+				};
+			};
+			["fightPos"] = {
+				["General"] = {
+					["x"] = -16.700000762939;
+					["y"] = 27.10000038147;
+					["z"] = 73.400001525879;
+					["h"] = -2.8;
+				};
+			};
+			["radius"] = 25;
+		};
+		[5] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2571";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 16.10000038147;
+					["y"] = -260;
+					["z"] = -61.400001525879;
+					["h"] = 2.9000000953674;
+				};
+			};
+			["radius"] = 25;
+		};
+		[6] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2573";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 100;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 16.10000038147;
+					["y"] = -260;
+					["z"] = -61.400001525879;
+					["h"] = 2.9000000953674;
+				};
+			};
+			["radius"] = 25;
+		};
+		[7] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2571";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 45.299999237061;
+					["y"] = -279.29998779297;
+					["z"] = 43.599998474121;
+					["h"] = 0.1;
+				};
+			};
+			["radius"] = 25;
+		};
+		[8] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2573;2571;2581;2583;2582";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 100;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 45.299999237061;
+					["y"] = -279.29998779297;
+					["z"] = 43.599998474121;
+					["h"] = 0.1;
+				};
+			};
+			["radius"] = 25;
+		};
+		[9] = {
+			["doWait"] = true;
+			["doKill"] = false;
+			["bossIDs"] = "";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 9.8999996185303;
+					["y"] = -280;
+					["z"] = 21.10000038147;
+					["h"] = -2.5999999046326;
+				};
+			};
+			["radius"] = 25;
+		};
+		[10] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "2564";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 100;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -3.0999999046326;
+					["y"] = -270;
+					["z"] = -8.6000003814697;
+					["h"] = -2.2000000476837;
+				};
+			};
+			["radius"] = 25;
+		};
+	};
+	["EncounterIndex"] = 0;
+}
+return obj1

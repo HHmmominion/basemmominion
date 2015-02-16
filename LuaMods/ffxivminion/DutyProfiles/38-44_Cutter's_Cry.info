@@ -1,0 +1,187 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -12.683698654175;
+					["x"] = 263.01736450195;
+					["h"] = 0.25217682123184;
+					["z"] = 102.46064758301;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -12.683698654175;
+					["x"] = 270.01736450195;
+					["h"] = 0.25217682123184;
+					["z"] = 102.46064758301;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[3] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -12.683698654175;
+					["x"] = 260.01736450195;
+					["h"] = 0.25217682123184;
+					["z"] = 102.46064758301;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[4] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -12.683698654175;
+					["x"] = 258.07922363281;
+					["h"] = 2.8400814533234;
+					["z"] = 88.355133056641;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -12.683698654175;
+					["x"] = 241.63330078125;
+					["h"] = -1.6796138286591;
+					["z"] = 99.736328125;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[6] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -12.683698654175;
+					["x"] = 241.63330078125;
+					["h"] = -1.6796138286591;
+					["z"] = 99.736328125;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[7] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -9.6347532272339;
+					["x"] = 99.533500671387;
+					["h"] = -2.7756206989288;
+					["z"] = 172.86096191406;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[8] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -9.6347532272339;
+					["x"] = 95.25691986084;
+					["h"] = -2.6996927261353;
+					["z"] = 163.8215637207;
+				};
+			};
+			["bossIDs"] = "1591;1592;1593;";
+		};
+		[9] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -5.265739440918;
+					["x"] = 12.986369132996;
+					["h"] = 0.24119620025158;
+					["z"] = 132.07305908203;
+				};
+			};
+			["bossIDs"] = "1799;1591;1592;1593;";
+		};
+		[10] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -10.831230163574;
+					["x"] = -46.539806365967;
+					["h"] = 0.66608786582947;
+					["z"] = 128.55473327637;
+				};
+			};
+			["bossIDs"] = "1799;1591;1592;1593;";
+		};
+		[11] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -10.831230163574;
+					["x"] = -61.948314666748;
+					["h"] = -2.5206182003021;
+					["z"] = 115.8041229248;
+				};
+			};
+			["bossIDs"] = "1799;1591;1592;1593;";
+		};
+	};
+	["MapID"] = 170;
+	["EncounterIndex"] = 1;
+}
+return obj1

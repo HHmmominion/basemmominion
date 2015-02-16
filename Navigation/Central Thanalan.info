@@ -1,0 +1,111 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Grind Marker"] = {
+		["Grind Marker7880"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["value"] = 7;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 3000;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 20.163057327271;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = -2.5173041820526;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "Grind Marker7880";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["z"] = {
+					["value"] = -348.55996704102;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["x"] = {
+					["value"] = -32.880931854248;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["Max Level"] = {
+					["value"] = 12;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+			};
+		};
+	};
+	["evacPoint"] = {
+		["y"] = -1.8775508403778;
+		["x"] = -15.459109306335;
+		["h"] = 0.00023937225341797;
+		["z"] = -170.4575958252;
+	};
+}
+return obj1

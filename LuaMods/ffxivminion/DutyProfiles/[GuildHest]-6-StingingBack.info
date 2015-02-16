@@ -1,0 +1,96 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+    ["MapID"] = 192;
+	["EncounterIndex"] = 0;
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 6000;
+			["failTime"] = 6000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -73.114517211914;
+					["y"] = 15.757316589355;
+					["z"] = -64.528877258301;					
+					["h"] = -2.8535165786743;
+				};
+			};
+			["bossIDs"] = "52;122";
+		};
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 6000;
+			["failTime"] = 6000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -79.933120727539;
+					["y"] = 15.757316589355;
+					["z"] = -87.539894104004;					
+					["h"] = -2.7487978935242;
+				};
+			};
+			["bossIDs"] = "84;122";
+		};
+		[3] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 6000;
+			["failTime"] = 6000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -86.823013305664;
+					["y"] = 15.757316589355;
+					["z"] = -104.16907501221;					
+					["h"] = -3.1299774646759;
+				};
+			};
+			["bossIDs"] = "84;83;122";
+		};
+		[4] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 6000;
+			["failTime"] = 6000;
+			["doKill"] = true;
+			["prioritize"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -87.241134643555;
+					["y"] = 15.757316589355;
+					["z"] = -140.16662597656;					
+					["h"] = 2.7594618797302;
+				};
+			};
+			["bossIDs"] = "84;83;122;121";
+		};
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 6000;
+			["failTime"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -49.789859771729;
+					["y"] = 2.8712077140808;
+					["z"] = -45.728500366211;					
+					["h"] = 0.66605377197266;
+				};
+			};
+			["interactid"] = 1004742; 
+		};
+	};
+}
+return obj1

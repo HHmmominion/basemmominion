@@ -1,0 +1,403 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 367;
+	["EncounterIndex"] = 0;
+	["Independent"] = false;
+	["Encounters"] = {
+		-- Sun Sphere Mobs 
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -65.08406829834;
+					["y"] = -17.000017166138;
+					["z"] = -60.855239868164;					
+					["h"] = -1.6721963882446;
+				};
+			};
+			["bossIDs"] = "3052;3060;3061";
+		};
+		-- Sun Sphere
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 1000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -65.08406829834;
+					["y"] = -17.000017166138;
+					["z"] = -60.855239868164;					
+					["h"] = -1.6721963882446;
+				};
+			};
+			["interactid"] = 2004380; 
+		};
+		-- Open Door Boss 1
+		[3] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 1000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -53.150211334229;
+					["x"] = -21;
+					["h"] = 0.14150854945183;
+					["z"] = 1.5199873447418;
+				};
+			};
+			["interactid"] = 2004382;
+		};
+		-- Boss 1 Prereq Mobs
+		[4] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -24.904846191406;
+					["y"] = -21.999992370605;
+					["z"] = -0.0065600024536252;					
+					["h"] = -1.6435626745224;
+				};
+			};
+			["bossIDs"] = "3059;3060;3053";
+		};
+		-- Boss 1 Kill
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 30;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 7000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = -57.441913604736;
+					["y"] = -44;
+					["z"] = 1.3212199211121;					
+					["h"] = 1.7607983350754;
+				};
+			};
+			["bossIDs"] = "3070;3066;3067;3068;3065";
+		};
+		[6] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 1000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -51;
+					["x"] = -35;
+					["h"] = 2.46;
+					["z"] = -12.63;
+				};
+			};
+			["lootid"] = 345;
+		};
+		-- Boss 2 Prereq Head Mob 1
+		[7] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 1000;
+			["failTime"] = 2000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 56.831787109375;
+					["y"] = -56.401702880859;
+					["z"] = -5.3926329612732;					
+					["h"] = -0.34848350286484;
+				};
+			};
+			["bossIDs"] = "3064;3062";
+		};
+		-- Moon Sphere Mob 
+		[8] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 2000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 91.133407592773;
+					["y"] = -37.312564849854;
+					["z"] = 66.374069213867;					
+					["h"] = -1.808158993721;
+				};
+			};
+			["bossIDs"] = "3052";
+		};
+		-- Moon Sphere
+		[9] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 91.133407592773;
+					["y"] = -37.312564849854;
+					["z"] = 66.374069213867;					
+					["h"] = -1.808158993721;
+				};
+			};
+			["interactid"] = 2004387; 
+		};
+		-- Moon Sphere Door
+		[10] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 2000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 166.49737548828;
+					["x"] = -44.999996185303;
+					["h"] = -0.018432252109051;
+					["z"] = 1.5533822774887;
+				};
+			};
+			["interactid"] = 2004388;
+		};
+		-- Boss 2 Prereq Head Mob 2
+		[11] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 2000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 195.63696289063;
+					["y"] = -50.114170074463;
+					["z"] = -0.52843856811523;					
+					["h"] = 1.5628148317337;
+				};
+			};
+			["bossIDs"] = "3064;3063;3062";
+		};
+		-- Boss 2 Tag
+		[12] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 4000;
+			["failTime"] = 1000;
+			["doKill"] = false;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 235.03785705566;
+					["y"] = -7.9999980926514;
+					["z"] = 0.049204122275114;					
+					["h"] = -1.9334728717804;
+				};
+			};
+			["bossIDs"] = "3073;3074;3071";
+		};
+		-- Boss 2 Kill Pos
+		[13] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 6000;
+			["avoid"] = "3104;3106";
+			["prioritize"] = true;
+			["doKill"] = true;
+			["avoidpos"] = {
+				["x"] = 227.44232177734;
+				["y"] = 0.9999828338623;
+				["z"] = 19.518064498901;					
+				["h"] = 2.5195622444153;
+			};
+			["startPos"] = {
+				["General"] = {
+					["x"] = 252.38690185547;
+					["y"] = 2.9868774414063;
+					["z"] = -18.982566833496;					
+					["h"] = -0.59959030151367;
+				};
+			};
+			["bossIDs"] = "3073;3074;3071";
+		};
+		-- Star Sphere Mobs
+		[14] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000; 
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 189.37139892578;
+					["y"] = -9.3000171661377;
+					["z"] = -75.013488769531;					
+					["h"] = 1.5420109033585;
+				};
+			};
+			["bossIDs"] = "3056;3057";
+		};
+		-- Star Sphere
+		[15] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 189.37139892578;
+					["y"] = -8.0000171661377;
+					["z"] = -75.013488769531;					
+					["h"] = 1.5420109033585;
+				};
+			};
+			["interactid"] = 2004390; 
+		};
+		-- Pedestal 1
+		[16] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 2000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 79.093292236328;
+					["y"] = -17.999942779541;
+					["z"] = -36.292633056641;					
+					["h"] = 2.5410370826721;
+				};
+			};
+			["interactid"] = 2004398; 
+		};
+		-- Pedestal 2
+		[17] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 2000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 79.13809967041;
+					["y"] = -17.999942779541;
+					["z"] = 36.205703735352;					
+					["h"] = 0.50633263587952;
+				};
+			};
+			["interactid"] = 2004400; 
+		};
+		-- Pedestal 3 Mob
+		[18] = {
+			["doWait"] = true;
+			["radius"] = 40;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 2000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 52.145542144775;
+					["y"] = -21.285512161255;
+					["z"] = 0.018962679430842;					
+					["h"] = 1.5753339529037;
+				};
+			};
+			["bossIDs"] = "3058;3050";
+		};
+		-- Pedestal 3
+		[19] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 2000;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 52.145542144775;
+					["y"] = -18.085512161255;
+					["z"] = 0.018962679430842;					
+					["h"] = 1.5753339529037;
+				};
+			};
+			["interactid"] = 2004396; 
+		};
+		-- Boss 3 Zone
+		[20] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 1000;
+			["prioritize"] = true;
+			["doKill"] = false;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 96.513427734375;
+					["y"] = -4.000009059906;
+					["z"] = -16.686206817627;					
+					["h"] = 1.6362570524216;
+				};
+			};
+			["bossIDs"] = "3075";
+		};
+		-- Boss 3 Kill
+		[21] = {
+			["doWait"] = true;
+			["radius"] = 30;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["failTime"] = 3000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["x"] = 134.47869873047;
+					["y"] = 1.9999499320984;
+					["z"] = -19.49836730957;					
+					["h"] = -3.0839810371399;
+				};
+			};
+			["bossIDs"] = "3075";
+		};
+		[22] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["waitTime"] = 1000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -3.9;
+					["x"] = 123.16;
+					["h"] = 1.67;
+					["z"] = 0.079;
+				};
+			};
+			["lootid"] = 348;
+		};
+	};	
+}
+return obj1

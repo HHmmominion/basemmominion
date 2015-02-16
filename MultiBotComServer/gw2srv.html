@@ -1,0 +1,344 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.10.0.custom.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.jqplot.css" />
+<script src="/img/jquery-1.9.0.min.js"></script>
+<script src="/img/jquery-ui-1.10.0.custom.js"></script>
+<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="/img/excanvas.js"></script><![endif]-->
+<script language="javascript" type="text/javascript" src="/img/jquery.jqplot.js"></script>
+<script type="text/javascript" src="/img/jqplot.canvasTextRenderer.min.js"></script>
+<script type="text/javascript" src="/img/jqplot.canvasAxisLabelRenderer.min.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" >
+$(document).ready(function(){
+
+	var BotValueStore =  new Object();
+	
+	var updateCounter = 0;
+	
+
+	var percentColors = [
+    { pct: 0, color: { r: 0xAA, g: 0x00, b: 0 } },
+    { pct: 50, color: { r: 0x88, g: 0x88, b: 0 } },
+    { pct: 100, color: { r: 0x00, g: 0x88, b: 0x00 } } ];
+
+	var namemap = new Object();
+	
+	function getColor(pct) {
+		for (var i = 0; i < percentColors.length; i++) {
+			if (pct <= percentColors[i].pct) {
+				var lower = percentColors[i - 1];
+				var upper = percentColors[i];
+				var range = upper.pct - lower.pct;
+				var rangePct = (pct - lower.pct) / range;
+				var pctLower = 1 - rangePct;
+				var pctUpper = rangePct;
+				var color = {
+					r: Math.floor(lower.color.r * pctLower + upper.color.r * pctUpper),
+					g: Math.floor(lower.color.g * pctLower + upper.color.g * pctUpper),
+					b: Math.floor(lower.color.b * pctLower + upper.color.b * pctUpper)
+				};
+				return 'rgb(' + [color.r, color.g, color.b].join(',') + ')';
+				// or output as hex if preferred
+			}
+		}
+	}
+
+    function updateEx(){
+	
+		updateCounter++;
+	
+		$.get("/json/data",function(data,status){
+			var bots = data["bots"];
+			var channels = data["channels"];
+			var botvalues = data["botvalues"];
+			var date = data["date"];
+			$.each(botvalues, function(botid,values) {
+				$.each(values, function(key,value){
+					$("#"+key+"_"+botid).text(value);
+				})
+
+				namemap[botid] = values["name"];
+				if ( values["running"] == "true" ) {
+					$("#cmd_toggle_"+botid).toggleClass("ui-icon ui-icon-play",false);
+					$("#cmd_toggle_"+botid).toggleClass("ui-icon ui-icon-pause",true);
+				}
+				else {
+					$("#cmd_toggle_"+botid).toggleClass("ui-icon ui-icon-pause",false);
+					$("#cmd_toggle_"+botid).toggleClass("ui-icon ui-icon-play",true);
+				}
+
+				var hpbar =  $( "#hpbar_"+botid);
+				hpbar.progressbar({
+				  value: 100,
+				});
+				var health = values["health"];
+				var maxhealth = values["maxhealth"];
+				if (health && maxhealth) {
+					var progval = Math.floor(parseFloat(health)/parseFloat(maxhealth)*100);
+					hpbar.progressbar("value",progval);
+					$("#hpbar-label_"+botid).text( "HP:" + Math.floor(parseFloat(health)) + "/" +  Math.floor(parseFloat(maxhealth)) +" (" + progval + "%)" );
+					var test = getColor(progval);
+					$("#hpbar_"+botid+" > div").css({"background": getColor(progval)});
+                    $("#hpbar_"+botid).css({ 'background': '#A0A0A0' });
+					}
+				else {
+					hpbar.progressbar("value",100);
+					hpbar.css({"background": getColor(100)});
+				}
+                if (BotValueStore[botid]==null) {
+                    BotValueStore[botid] = new Object();
+                }
+
+				if (BotValueStore[botid].money == null ){
+					BotValueStore[botid].money = values["money"];
+					BotValueStore[botid].gph = new Array();
+					BotValueStore[botid].plot = $.jqplot("gph_"+botid, [[0,0]],
+					{ title:{text:"Gold/h",textColor:"#fff"},axes:{ yaxis:{min:0, max:20,tickInterval: 2,tickOptions:{formatString: '%.1f',textColor:"#fff"} },xaxis:{min:0, max:60,tickInterval:10,tickOptions:{formatString: '%d',textColor:"#fff"} } },
+					series:[{color:'#ff6200', lineWidth:2, 
+							markerOptions: { show: false }}]
+					});
+					
+				}
+				else {
+					if (updateCounter%60==0) {
+                        var gph = (parseFloat(values["money"])/10000 - parseFloat(BotValueStore[botid].money)/10000)*60/updateCounter;
+						if (BotValueStore[botid].gph.length > 60) {
+							BotValueStore[botid].gph.shift();
+							for (var i = 0 ; i<59; i++) {
+							BotValueStore[botid].gph[i][0] = i;
+							}
+						}
+						BotValueStore[botid].gph.push([BotValueStore[botid].gph.length,gph]);
+						BotValueStore[botid].plot.series[0].data = BotValueStore[botid].gph; 
+						BotValueStore[botid].plot.resetAxesScale(['yaxis']); 
+						BotValueStore[botid].plot.replot(); 
+					}
+				}
+				
+			});
+			
+			var chanhtml = "<ul class=\"nicelists\">";
+			$.each(channels, function(index,channels) {
+				$.each(channels , function ( channel, clients ) {
+				chanhtml += "<li>" + channel + "<ul>";
+				$.each(clients, function(index, clientid) {
+					chanhtml += "<li>" +  namemap[clientid] +"</li>";
+				});
+				})
+				chanhtml += "</ul></li>";
+			});
+			chanhtml += "</ul>";
+			$("#channels").html(chanhtml);
+
+	
+			chanhtml = "<ul class=\"nicelists\">";
+			$.each(bots, function(index, client) {
+				$.each(client, function(key,value) {
+				chanhtml += "<li>" +  namemap[key] + "-" + value+ "</li>";
+				});
+			});
+			chanhtml += "</ul>";
+			$("#bots").html(chanhtml);
+			
+			$("#datetime").text(date);
+			
+		});
+		
+		
+
+		
+	}
+
+    setInterval(updateEx, 1000);
+
+    //Call the function
+    updateEx();
+	 var options = {};
+	
+	$("#toggleOverview").hover(function() {
+		$(this).css('cursor','pointer');
+		$(this).css('color','#ff6200');
+	}, function() {
+		$(this).css('cursor','auto');
+		$(this).css('color','#fffff');
+	});
+	
+	$(function() {
+    $( "#toggleOverview" )
+      .click(function( event ) {
+		$( "#overview" ).toggle( "blind", options, 100 );
+      });
+	});
+	
+	$(function() {
+    $( "a" )
+      .click(function( event ) {
+        event.preventDefault();
+        var lastslash= this.href.lastIndexOf("/");
+        var item = this.href.substring(lastslash+1 ,this.href.length);
+        var test = this.href.substring(lastslash+1 ,lastslash+8);
+        var botid = this.href.substring(this.href.length-1 ,this.href.length);
+        if (test == "graphs_") {
+            if (  $("#"+item).is(":visible") ) {
+                $("#showgraphs_"+botid).toggleClass("ui-icon-circle-triangle-n",false);
+				$("#showgraphs_"+botid).toggleClass("ui-icon-circle-triangle-s",true);
+            }
+            else {
+                $("#showgraphs_"+botid).toggleClass("ui-icon-circle-triangle-s",false);
+				$("#showgraphs_"+botid).toggleClass("ui-icon-circle-triangle-n",true);
+            }
+            $( "#"+item ).toggle( "blind", options, 100 );
+            BotValueStore[botid].plot.replot();
+        }
+        else
+    		$.post(this.href);
+
+      });
+  });
+});
+
+
+</script>
+
+<title>GW2Minion Overview</title>
+<!--<meta http-equiv="refresh" content="5"></head>-->
+
+<style type="text/css">
+a {
+text-decoration: none;
+}
+
+ .progress-label {
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+	font-family: 'Share Tech Mono', sans-serif;
+	color: #ffffff;
+  }
+
+.btn {
+padding: 5px 5px;
+margin-left: 4px;
+background: #626262;
+color: #FFF !important;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border: solid 1px #323232;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-webkit-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+transition-duration: 0.2s;
+font-family: Verdana, Arial, Sans-Serif;
+font-size:12;
+}
+
+.btn:hover{
+background: #828282;
+border: solid 1px #323232;
+text-decoration: none;
+}
+
+body {
+	background: #efefef url(img/page_bg.png);
+	color: #000;
+    margin: auto 0;
+	font-family: 'Share Tech Mono', sans-serif;
+}
+
+p {
+	margin:2px;
+	white-space: nowrap;
+    overflow:hidden;
+}
+
+.singlebotdisplay {
+	font-family: 'Share Tech Mono', sans-serif;
+	background-color: #808080;
+	color: #ffffff;
+	float:left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border-radius: 25px 10px / 10px 25px;
+	-moz-border-radius: 25px 10px / 10px 25px;
+	-webkit-border-radius: 25px 10px / 10px 25px;
+	width: 225px;
+	color: #FFF !important;
+	border: solid 1px #323232;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	
+}
+
+.botlist , .channellist {
+	color: #30ff30;
+}
+
+.overview {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #808080;
+	color: #ffffff;
+	float:right;
+	margin-top: 10px;
+	margin-right: 15px;
+	padding: 5px;
+	font-family: 'Share Tech Mono', sans-serif;
+}
+
+.nicelists li {
+	list-style-type:none;
+	color:#60FF60;
+}
+.nicelists li ul li {
+	list-style-type:none;
+	color:#FFFFFF;
+}
+
+.pagetitle {
+	background-color:#626262;
+	color: #ffffff;
+	float:left;
+	width:100%;
+	text-align: center;
+	border-bottom-right-radius: 25px 50px;
+	-moz-border-radius-bottomright: 25px 50px;
+}
+
+ul#cmds {margin: 0; padding: 0;}
+ul#cmds li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#cmds a.ui-icon {float: left; margin: 0 4px;}
+
+</style>
+
+<body>
+	<div class="pagetitle">
+	<div id="toggleOverview" style="float:right;margin-right:15px">GW2 Minion Server Overview</div>
+	<div style="float:left;margin-left:15px" id="datetime"></div>
+	</div>
+	
+	
+	<div id="overview" class="overview" hidden="true" >
+		<p> Conntected Bots </p>
+		<span id="bots"> </span>
+		<p> Available Channels </p>
+		<span id="channels"> </span>
+	</div>
+	
+    <%botdetails%>
+  
+  </body>
+</html>
+
+

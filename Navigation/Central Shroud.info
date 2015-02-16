@@ -1,0 +1,207 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Grind Marker"] = {
+		["grind_1to4"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["z"] = {
+					["value"] = -265.41082763672;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Min Level"] = {
+					["value"] = 1;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 300;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 15.238384246826;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["h"] = {
+					["value"] = -0.78389358520508;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["value"] = "grind_1to4";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["x"] = {
+					["value"] = 106.35381317139;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["Max Level"] = {
+					["value"] = 4;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+			};
+		};
+		["grind_6to10"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+				["h"] = {
+					["value"] = 0.42774322628975;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Min Level"] = {
+					["value"] = 6;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 3000;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 3.5967578887939;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["Name"] = {
+					["value"] = "grind_6to10";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["z"] = {
+					["value"] = -79.96125793457;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["value"] = 10;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["x"] = {
+					["value"] = 400.84262084961;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
+				};
+			};
+		};
+	};
+	["evacPoint"] = {
+		["y"] = -1.1838413476944;
+		["x"] = 8.3267860412598;
+		["h"] = 0.82093191146851;
+		["z"] = 31.400531768799;
+	};
+}
+return obj1

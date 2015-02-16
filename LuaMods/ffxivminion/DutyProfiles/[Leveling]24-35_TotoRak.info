@@ -1,0 +1,107 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 169;
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "153";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["z"] = -78.916191;
+					["x"] = -267.046722;
+					["h"] = -1.302804;
+					["y"] = 12.409554;
+				};
+			};
+			["radius"] = 25;
+		};
+		[2] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "153;154";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["z"] = -79.074066;
+					["x"] = -218.543900 ;
+					["h"] = 1.1752355;
+					["y"] = 12.409554 ;
+				};
+			};
+			["radius"] = 25;
+		};
+		[3] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "153";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["z"] = -30.239716;
+					["x"] = -183.700745;
+					["h"] = -0.004325;
+					["y"] = 12.409554;
+				};
+			};
+			["radius"] = 25;
+		};
+		[4] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "151";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["z"] = 109.982483;
+					["x"] = -163.617386;
+					["h"] = 1.505109;
+					["y"] = 7.822166;
+				};
+			};
+			["radius"] = 25;
+		};
+		[5] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "151";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["z"] = 107.451019;
+					["x"] = -183.316559;
+					["h"] = -1.722602;
+					["y"] = 7.822166;
+				};
+			};
+			["radius"] = 25;
+		};
+		[6] = {
+			["doWait"] = true;
+			["doKill"] = true;
+			["bossIDs"] = "153;151;154";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["startPos"] = {
+				["General"] = {
+					["z"] = 53.305832;
+					["x"] = -	204.033356;
+					["h"] = -0.07232;
+					["y"] = 7.822166;
+				};
+			};
+			["radius"] = 25;
+		};
+	};
+	["EncounterIndex"] = 0;
+}
+return obj1

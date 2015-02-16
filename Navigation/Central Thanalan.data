@@ -1,0 +1,26 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 141;
+	["Name"] = "Central Thanalan";
+	["LastPlayerPosition"] = {
+		["y"] = -12.808223724365;
+		["x"] = -80.990020751953;
+		["h"] = -1.2628520727158;
+		["z"] = -38.377872467041;
+	};
+	["AllowedMapIDs"] = {
+		[141] = 141;
+		[270] = 270;
+		[248] = 248;
+	};
+	["AvoidanceAreas"] = {
+	};
+	["MarkerList"] = {
+	};
+	["Obstacles"] = {
+	};
+}
+return obj1

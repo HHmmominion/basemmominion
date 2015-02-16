@@ -1,0 +1,45 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 25.07;
+					["x"] = -259.52;
+					["h"] = -1.57;
+					["z"] = 17.35;
+				};
+			};
+			["bossIDs"] = "3046;3047";
+		};
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["waitTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 19;
+					["x"] = -270.29;
+					["h"] = 1.5;
+					["z"] = 18.10;
+				};
+			};
+			["lootid"] = "404";
+		};
+};
+	["MapID"] = 142;
+	["Independent"] = true;
+	["EncounterIndex"] = 1;
+};
+return obj1

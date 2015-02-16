@@ -1,0 +1,152 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 167; 		
+	["Independent"] = true;
+	["EncounterIndex"] = 1;
+	["Encounters"] = {
+		-- 1st Boss
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["fightPos"] = {
+				["General"] = {
+					["y"] = 17.299995422363;
+					["x"] = -12.890789031982;
+					["z"] = 15.585750579834;
+					["h"] = 2.5514025688171;
+				};
+			};
+			["bossIDs"] = "1689;1690";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 10.1;
+					["x"] = -46.623444;
+					["z"] = 0.726837;
+					["h"] = 1.603447;
+				};
+			};
+		};
+		-- 2nd Boss
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 40;
+			["bossIDs"] = "1694";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 4000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 40;
+					["x"] = 202.500229;
+					["z"] = -121.423531;
+					["h"] = 2.985154;
+				};
+			};
+		};
+		-- 3rd Boss Kill Trigger 1
+		[3] = {
+			["doWait"] = true;
+			["radius"] = 40;
+			["bossIDs"] = "1687";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 63;
+					["x"] = 215.87257385254;
+					["z"] = -22.725059509277;
+					["h"] = -2.8072159290314;
+				};
+			};
+		};
+		-- 3rd Boss Kill Trigger 2
+		[4] = {
+			["doWait"] = true;
+			["radius"] = 40;
+			["bossIDs"] = "1687";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 63;
+					["x"] = 215.07228088379;
+					["z"] = 12.536675453186;
+					["h"] = 0.93123292922974;
+				};
+			};
+		};
+		-- 3rd Boss Kill Trigger 3
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 40;
+			["bossIDs"] = "1687";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 63;
+					["x"] = 148.3949432373;
+					["z"] = -0.078103244304657;
+					["h"] = -1.7612566947937;
+				};
+			};
+		};
+		-- 3rd Boss Trigger Position
+		[6] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 48.000003814697;
+					["x"] = 32.046306610107;
+					["z"] = 1.0731779336929;
+					["h"] = -1.8634037971497;
+				};
+			};
+		};
+		-- 3rd Boss
+		[7] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["fightPos"] = {
+				["General"] = {
+					["y"] = 57.721451;
+					["x"] = 7.909859;
+					["z"] = -28.245514;
+					["h"] = -0.161121;
+				};
+			};
+			["bossIDs"] = "1696";
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 4000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 63;
+					["x"] = 19;
+					["z"] = 1.8;
+					["h"] = -1.57;
+				};
+			};
+		};
+		
+	};
+}
+return obj1

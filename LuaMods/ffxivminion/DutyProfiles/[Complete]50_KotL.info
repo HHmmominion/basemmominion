@@ -1,0 +1,693 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 150;
+  	["EncounterIndex"] = 0;
+	["Encounters"] = {
+		
+		-- Trash Mobs
+		[1] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 18;
+					["x"] = 205.54933166504;
+					["h"] = -1.2209243774414;
+					["z"] = -94.625198364258;
+				};
+			};
+			["bossIDs"] = "3353;3354";
+		};
+	
+		-- Trash Mobs	
+		[2] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 18;
+					["x"] = 169.93270874023;
+					["h"] = -0.58631944656372;
+					["z"] = -56.42603302002;
+				};
+			};
+			["bossIDs"] = "3355;3350";
+		};
+
+		-- Trash Mobs
+		[3] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 18;
+					["x"] = 149.79441833496;
+					["h"] = -1.2944431304932;
+					["z"] = -28.195886611938;
+				};
+			};
+			["bossIDs"] = "3355;3352;3349";
+		};
+
+		-- Trash Clearup Check
+		[4] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 18;
+					["x"] = 159.55513000488;
+					["h"] = -1.7468371391296;
+					["z"] = -37.524547576904;
+				};
+			};
+			["bossIDs"] = "3355;3352;3349;3350";
+		};
+
+		-- Treasure Coffer
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 6.9390335083008;
+					["x"] = 178.47441101074;
+					["h"] = 1.1897221803665;
+					["z"] = -13.851863861084;
+				};
+			};
+			["lootid"] = 413;
+		};
+
+		-- Trash Mobs
+		[6] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 22;
+					["x"] = 95.085571289063;
+					["h"] = -1.643988609314;
+					["z"] = -41.059955596924;
+				};
+			};
+			["bossIDs"] = "3325;3351";
+		};
+
+		-- Boss 1 Einhander
+		[7] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 36.465278625488;
+					["x"] = 25.752002716064;
+					["h"] = -0.97168731689453;
+					["z"] = -21.336605072021;
+				};
+			};
+			["bossIDs"] = "3369";
+		};
+
+		-- Loot
+		[8] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 26.620758056641;
+					["x"] = 6.0917210578918;
+					["h"] = -1.1350560188293;
+					["z"] = -10.929798126221;
+				};
+			};
+			["lootid"] = 417;
+		};
+
+		-- zone start
+		[9] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 22.525482177734;
+					["x"] = -7.4020085334778;
+					["h"] = -1.0138001441956;
+					["z"] = -3.6353116035461;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- zone finish
+		[10] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 20.871694564819;
+					["x"] = -12;
+					["h"] = -1.0138001441956;
+					["z"] = -1.5;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- 1st Key Mobs
+		[11] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 340.36297607422;
+					["x"] = -104.3586730957;
+					["h"] = -0.045923709869385;
+					["z"] = -134.70008850098;
+				};
+			};
+			["bossIDs"] = "3357;3362;3360";
+		};
+
+		-- Pickup Key
+		[12] = {
+			["radius"] = 25;
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["startPos"] = {
+				["General"] = {
+					["y"] = 325.36297607422;
+					["x"] = -104.3586730957;
+					["h"] = -0.045923709869385;
+					["z"] = -134.70008850098;
+				};
+			};
+			["interactid"] = 2004844;
+		};
+
+		-- Interact with Magitek Terminal
+		[13] = {
+			["radius"] = 25;
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["startPos"] = {
+				["General"] = {
+					["y"] = 325.36297607422;
+					["x"] = -104.3586730957;
+					["h"] = -0.045923709869385;
+					["z"] = -134.70008850098;
+				};
+			};
+			["interactid"] = 2004829;
+		}; 
+
+		-- Trigger Alarm
+		[14] = {
+			["radius"] = 25;
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["startPos"] = {
+				["General"] = {
+					["y"] = 329.09991455078;
+					["x"] = -98.822166442871;
+					["h"] = -3.1221907138824;
+					["z"] = -135.60263061523;
+				};
+			};
+			["bossIDs"] = "";
+		}; 
+
+		-- Destroy Magiteck Field Inductor
+		[15] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 348.62866210938;
+					["x"] = -89.578948974609;
+					["h"] = -0.22604084014893;
+					["z"] = -204.55267333984;
+				};
+			};
+			["bossIDs"] = "3379";
+		};
+
+		-- Mobs
+		[16] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 348.62866210938;
+					["x"] = -95.610595703125;
+					["h"] = 2.6007823944092;
+					["z"] = -183.19027709961;
+				};
+			};
+			["bossIDs"] = "3358;3361,3363";
+		};
+
+
+		-- Treasure Coffer
+		[17] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 338.74249267578;
+					["x"] = -84.197776794434;
+					["h"] = 3.1249418258667;
+					["z"] = -191.66395568848;
+				};
+			};
+			["lootid"] = 414;
+		};
+
+
+		-- Destroy Magiteck Field Inductor
+		[18] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 348.62866210938;
+					["x"] = -58.177833557129;
+					["h"] = -0.01690673828125;
+					["z"] = -246.17712402344;
+				};
+			};
+			["bossIDs"] = "3379";
+		};
+
+		-- 2nd Key Mobs
+		[19] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 348.74249267578;
+					["x"] = -52.691020965576;
+					["h"] = 2.6073902702332;
+					["z"] = -216.30714416504;
+				};
+			};
+			["bossIDs"] = "3359;3362;3363;3358";	
+		};
+
+
+		-- Pickup Key
+		[20] = {
+			["radius"] = 25;
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["startPos"] = {
+				["General"] = {
+					["y"] = 338.45193481445;
+					["x"] = -34.85863494873;
+					["h"] = 1.5437228679657;
+					["z"] = -200.26931762695;
+				};
+			};
+			["interactid"] = 2004975;
+		};
+
+		-- Treasure Coffer
+		[21] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 338.44522094727;
+					["x"] = -69.952095031738;
+					["h"] = -3.1310150623322;
+					["z"] = -233.20446777344;
+				};
+			};
+			["lootid"] = 415;
+		};
+
+
+		-- Interact with Magitek Terminal
+		[22] = {
+			["radius"] = 25;
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["startPos"] = {
+				["General"] = {
+					["y"] = 338.45193481445;
+					["x"] = -34.85863494873;
+					["h"] = 1.5437228679657;
+					["z"] = -200.26931762695;
+				};
+			};
+			["interactid"] = 2004834;
+		};
+
+		-- Boss 2 Magitek Gunship
+		[23] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 352.18930053711;
+					["x"] = 8.5510721206665;
+					["h"] = 0.02319073677063;
+					["z"] = -151.5082244873;
+				};
+			};
+			["bossIDs"] = "3373";
+		};
+
+
+		-- Loot 1
+		[24] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 346.0237121582;
+					["x"] = 10.480555534363;
+					["h"] = 0.02516770362854;
+					["z"] = -135.95053100586;
+				};
+			};
+			["lootid"] = 418;
+		};
+
+
+		-- Loot 2
+		[25] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 346.0237121582;
+					["x"] = 6.103964805603;
+					["h"] = 0.0084128379821777;
+					["z"] = -136.00637817383;
+				};
+			};
+			["lootid"] = 419;
+		};
+
+		-- zone
+		[26] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 596.33703613281;
+					["x"] = 64.157012939453;
+					["h"] = 1.3468024730682;
+					["z"] = -113.16191101074;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+
+		-- adds trigger
+		[27] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 596.7880859375;
+					["x"] = 68.745948791504;
+					["h"] = 1.1603984832764;
+					["z"] = -111.27716827393;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- Trash Mobs
+		[28] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 606.45764160156;
+					["x"] = 83.937423706055;
+					["h"] = 2.9870293140411;
+					["z"] = -93.962249755859;
+				};
+			};
+			["bossIDs"] = "3365;3368";
+		};
+
+		-- Trash Mobs
+		[29] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 621.45764160156;
+					["x"] = 56.207794189453;
+					["h"] = 0.58443474769592;
+					["z"] = -78.761337280273;
+				};
+			};
+			["bossIDs"] = "3365;3367";
+		};
+
+		-- trigger start
+		[30] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 609.52081298828;
+					["x"] = 54.643886566162;
+					["h"] = -0.74340534210205;
+					["z"] = -69.89786529541;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- trigger finish
+		[31] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 613.45526123047;
+					["x"] = 39.15506362915;
+					["h"] = -0.53606462478638;
+					["z"] = -54.436714172363;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- Trash Mobs
+		[32] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 640.40954589844;
+					["x"] = 19.62260055542;
+					["h"] = 1.5856118202209;
+					["z"] = -16.724885940552;
+				};
+			};
+			["bossIDs"] = "3367;3368";
+		};
+
+
+		-- Trash Mobs
+		[33] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 648.13165283203;
+					["x"] = -28.854598999023;
+					["h"] = -1.451313495636;
+					["z"] = -7.1738414764404;
+				};
+			};
+			["bossIDs"] = "3366;3368";
+		};
+
+		-- to Zone Line
+		[34] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 640.89141845703;
+					["x"] = -40.62092590332;
+					["h"] = 3.1186578273773;
+					["z"] = -56.86841583252;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- trigger boss
+		[35] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 640.89141845703;
+					["x"] = -40.62092590332;
+					["h"] = 3.1186578273773;
+					["z"] = -59.86841583252;
+				};
+			};
+			["bossIDs"] = "";
+		};
+
+		-- Boss POS
+		[36] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 2000;
+			["failTime"] = 3000;
+			["doKill"] = false;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 651.04217529297;
+					["x"] = -40.763389587402;
+					["h"] = 1.7296923398972;
+					["z"] = -76.837348937988;
+				};
+			};
+			["bossIDs"] = "3374;3375;3370";
+		};
+
+		-- Boss 3 Midgardsormr
+		[37] = {
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 1000;
+			["failTime"] = 20000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 651.04217529297;
+					["x"] = -40.763389587402;
+					["h"] = 1.7296923398972;
+					["z"] = -76.837348937988;
+				};
+			};
+			["bossIDs"] = "3374;3375;3370";
+		};
+
+		[38] = {
+			["doWait"] = true;
+			["radius"] = 3;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["maxWait"] = 6000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 641.06488037109;
+					["x"] = -40.695114135742;
+					["h"] = -3.1121678352356;
+					["z"] = -89.80150604248;
+				};
+			};
+			["lootid"] = 420;
+		};
+	};
+}
+return obj1
+
+
+

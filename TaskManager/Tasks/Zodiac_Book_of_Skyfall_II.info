@@ -1,0 +1,183 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Iron_Tortoise";
+			["contentId"] = 243;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["x"] = -242.42391967773;
+				["y"] = 6.2179160118103;
+				["z"] = 146.18055725098;
+			};			
+		};
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Gigas_Bhikkhu";
+			["contentId"] = 649;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = 594.63702392578;
+				["y"] = -3.30353474617;
+				["z"] = -308.06030273438;
+			};			
+		};
+		[2] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_5th_Cohort_Hoplomachus";
+			["contentId"] = 1809;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = -471.37878417969;
+				["y"] = -6.6990823745728;
+				["z"] = -449.44326782227;
+			};			
+		};
+		[3] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Sapsa_Shelfscale";
+			["contentId"] = 1827;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["x"] = -361.69088745117;
+				["y"] = -39.140979766846;
+				["z"] = -367.10586547852;
+			};			
+		};
+		[4] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Shelfeye_Reaver";
+			["contentId"] = 559;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["x"] = -406.59475708008;
+				["y"] = -40.422142028809;
+				["z"] = -222.30645751953;
+			};			
+		};
+		
+		[5] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_4th_Cohort_Laquearius";
+			["contentId"] = 1816;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["x"] = -480.39517211914;
+				["y"] = 50.662376403809;
+				["z"] = -730.15344238281;
+			};			
+		};
+		
+		[6] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Ked";
+			["contentId"] = 8;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 153;
+				["mesh"] = "South Shroud";
+				["x"] = 522.72839355469;
+				["y"] = 14.022576332092;
+				["z"] = 132.54418945313;
+			};			
+		};
+		[7] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_U'Ghamaro_Bedesman";
+			["contentId"] = 1834;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 180;
+				["mesh"] = "Outer La Noscea";
+				["x"] = 42.804824829102;
+				["y"] = 22.606637954712;
+				["z"] = -757.01794433594;
+			};			
+		};
+		[8] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Sylph_Bonnet";
+			["contentId"] = 166;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["x"] = 228.5591583252;
+				["y"] = -23.031652450562;
+				["z"] = -420.74923706055;
+			};			
+		};
+		[9] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Natalan_Watchwolf";
+			["contentId"] = 1846;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["x"] = 516.59637451172;
+				["y"] = 302.80279541016;
+				["z"] = -179.02145385742;
+			};			
+		};
+		[10] = {
+			["mode"] = "Grind";
+			["fateId"] = 569;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["x"] = -54.590599060059;
+				["y"] = -23.848735809326;
+				["z"] = -113.37518310547;
+			};			
+		};
+		[11] = {
+			["mode"] = "Grind";
+			["fateId"] = 516;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = -298.92764282227;
+				["y"] = -17.148405075073;
+				["z"] = -335.39135742188;
+			};			
+		};
+		[12] = {
+			["mode"] = "Grind";
+			["fateId"] = 616;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["x"] = 568.02911376953;
+				["y"] = -24.271574020386;
+				["z"] = -400.7783203125;
+			};			
+		};
+	};
+}
+return obj1

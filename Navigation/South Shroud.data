@@ -1,0 +1,29 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 153;
+	["Name"] = "South Shroud";
+	["LastPlayerPosition"] = {
+		["y"] = 0;
+		["x"] = 0;
+		["z"] = 0;
+		["hx"] = 0;
+		["hy"] = 0;
+		["hz"] = 0;
+		["h"] = 0;
+	};
+	["AllowedMapIDs"] = {
+		[231] = 231;
+		[236] = 236;
+		[153] = 153;
+	};
+	["AvoidanceAreas"] = {
+	};
+	["MarkerList"] = {
+	};
+	["Obstacles"] = {
+	};
+}
+return obj1
