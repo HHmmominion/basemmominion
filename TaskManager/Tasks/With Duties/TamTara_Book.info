@@ -26,21 +26,6 @@ local obj1 = {
 			["bossIDs"] = "79;109;455";
 		};
 		[2] = {
-			["radius"] = 3;
-			["waitTime"] = 2000;
-			["failTime"] = 5000;
-			["taskFunction"] = "ffxiv_task_loot.Create";
-			["startPos"] = {
-				["General"] = {
-					["x"] = -6.6422762870789;
-					["y"] = 30.476985931396;
-					["z"] = -16.412925720215;
-					["h"] = -1.4673361778259;
-				};
-			};
-			["lootid"] = 16;
-		};
-		[3] = {
 			["radius"] = 5;
 			["waitTime"] = 2000;
 			["failTime"] = 3000;
@@ -55,7 +40,7 @@ local obj1 = {
 			};
 			["interactid"] = 2000061;
 		};
-		[4] = {
+		[3] = {
 			["positionRadius"] = 3;
 			["doWait"] = true;
 			["radius"] = 25;
@@ -73,22 +58,8 @@ local obj1 = {
 			};
 			["bossIDs"] = "79;109;455";
 		};
-		[5] = {
-			["radius"] = 3;
-			["waitTime"] = 2000;
-			["failTime"] = 5000;
-			["taskFunction"] = "ffxiv_task_loot.Create";
-			["startPos"] = {
-				["General"] = {
-					["x"] = -23.219198226929;
-					["y"] = 24.71312713623;
-					["z"] = 21.063207626343;
-					["h"] = -2.7574656009674;
-				};
-			};
-			["lootid"] = 17;
-		};
-		[6] = {
+		
+		[4] = {
 			["radius"] = 3;
 			["waitTime"] = 2000;
 			["failTime"] = 3000;
@@ -103,7 +74,7 @@ local obj1 = {
 			};
 			["interactid"] = 2000062;
 		};
-		[7] = {
+		[5] = {
 			["positionRadius"] = 3;
 			["doWait"] = true;
 			["radius"] = 35;
@@ -121,7 +92,7 @@ local obj1 = {
 			};
 			["bossIDs"] = "144;143;1271";
 		};
-		[8] = {
+		[6] = {
 			["radius"] = 3;
 			["waitTime"] = 2000;
 			["failTime"] = 3000;
@@ -136,7 +107,7 @@ local obj1 = {
 			};
 			["interactid"] = 2000057;
 		};
-		[9] = {
+		[7] = {
 			["positionRadius"] = 3;
 			["doWait"] = true;
 			["radius"] = 35;
@@ -154,7 +125,7 @@ local obj1 = {
 			};
 			["bossIDs"] = "144;143;1271";
 		};
-		[10] = {
+		[8] = {
 			["radius"] = 5;
 			["waitTime"] = 2000;
 			["failTime"] = 3000;
@@ -169,7 +140,7 @@ local obj1 = {
 			};
 			["interactid"] = 2000060;
 		};
-		[11] = {
+		[9] = {
 			["positionRadius"] = 3;
 			["doWait"] = true;
 			["radius"] = 25;
@@ -187,22 +158,8 @@ local obj1 = {
 			};
 			["bossIDs"] = "109;119;455";
 		};
-		[12] = {
-			["radius"] = 3;
-			["waitTime"] = 2000;
-			["failTime"] = 5000;
-			["taskFunction"] = "ffxiv_task_loot.Create";
-			["startPos"] = {
-				["General"] = {
-					["x"] = -90.815078735352;
-					["y"] = 13.859006881714;
-					["z"] = 8.1075420379639;
-					["h"] = 1.9623996019363;
-				};
-			};
-			["lootid"] = 62;
-		};
-		[13] = {
+		
+		[10] = {
 			["radius"] = 3;
 			["waitTime"] = 2000;
 			["failTime"] = 3000;
@@ -217,7 +174,7 @@ local obj1 = {
 			};
 			["interactid"] = 2000067;
 		};
-		[14] = {
+		[11] = {
 			["radius"] = 3;
 			["waitTime"] = 2000;
 			["failTime"] = 1000;
@@ -232,7 +189,7 @@ local obj1 = {
 			};
 			["interactid"] = 2000063;
 		};
-		[15] = {
+		[12] = {
 			["positionRadius"] = 3;
 			["doWait"] = true;
 			["radius"] = 35;
@@ -251,21 +208,7 @@ local obj1 = {
 			};
 			["bossIDs"] = "456;73";
 		};
-		[16] = {
-			["radius"] = 3;
-			["waitTime"] = 3000;
-			["failTime"] = 5000;
-			["taskFunction"] = "ffxiv_task_loot.Create";
-			["startPos"] = {
-				["General"] = {
-					["x"] = -47.955032348633;
-					["y"] = 14.046315193176;
-					["z"] = -14.563488006592;
-					["h"] = 1.8639630079269;
-				};
-			};
-			["lootid"] = 11;
-		};
+		
 	};
 }
 return obj1

@@ -17,7 +17,7 @@ local obj1 = {
 				["z"] = -266.32092285156;
 			};			
 		};
-		[1] = {
+		[2] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Biast";
@@ -31,7 +31,7 @@ local obj1 = {
 				["z"] = 407.20465087891;
 			};			
 		};
-		[2] = {
+		[9] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Natalan_Boldwing";
@@ -59,7 +59,7 @@ local obj1 = {
 				["z"] = -302.33599853516;
 			};			
 		};
-		[4] = {
+		[6] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Shelfscale_Reaver";
@@ -73,7 +73,7 @@ local obj1 = {
 				["z"] = -222.12408447266;
 			};			
 		};
-		[5] = {
+		[8] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_U'Ghamaro_Golem";
@@ -82,12 +82,12 @@ local obj1 = {
 			["location"] = 	{ 
 				["map"] = 180;
 				["mesh"] = "Outer La Noscea";
-				["x"] = 290.02938842773;
-				["y"] = 21.539503097534;
-				["z"] = -711.08245849609
+				["x"] = 276.38116455078;
+				["y"] = 23.621067047119;
+				["z"] = -687.62023925781;
 			};			
 		};
-		[6] = {
+		[5] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Dullahan";
@@ -101,7 +101,7 @@ local obj1 = {
 				["z"] = -69.480194091797;
 			};			
 		};
-		[7] = {
+		[1] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Sylpheed_Sigh";
@@ -115,7 +115,7 @@ local obj1 = {
 				["z"] = -184.82373046875;
 			};			
 		};
-		[8] = {
+		[7] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Zahar'ak_Archer";
@@ -129,7 +129,7 @@ local obj1 = {
 				["z"] = -19.999155044556;
 			};			
 		};
-		[9] = {
+		[4] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Tempered_Gladiator";
@@ -143,7 +143,7 @@ local obj1 = {
 				["z"] = -96.215980529785;
 			};			
 		};
-		[10] = {
+		[11] = {
 			["mode"] = "Grind";
 			["fateId"] = 424;
 			["location"] = 	{ 
@@ -154,15 +154,15 @@ local obj1 = {
 				["z"] = -242.73213195801;
 			};			
 		};
-		[11] = {
+		[10] = {
 			["mode"] = "Grind";
 			["fateId"] = 571;
 			["location"] = 	{ 
 				["map"] = 138;
 				["mesh"] = "Western La Noscea";
-				["x"] = -152.88049316406;
-				["y"] = -28.727022171021;
-				["z"] = 16.803274154663;
+				["x"] = -139.88049316406;
+				["y"] = -24.727022171021;
+				["z"] = 42.803274154663;
 			};			
 		};
 		[12] = {

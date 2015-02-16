@@ -12,12 +12,12 @@ local obj1 = {
 			["location"] = 	{ 
 				["map"] = 146;
 				["mesh"] = "Southern Thanalan";
-				["x"] = -242.42391967773;
+				["x"] = -207.42391967773;
 				["y"] = 6.2179160118103;
-				["z"] = 146.18055725098;
+				["z"] = 109.18055725098;
 			};			
 		};
-		[1] = {
+		[8] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Gigas_Bhikkhu";
@@ -31,7 +31,7 @@ local obj1 = {
 				["z"] = -308.06030273438;
 			};			
 		};
-		[2] = {
+		[1] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_5th_Cohort_Hoplomachus";
@@ -40,12 +40,12 @@ local obj1 = {
 			["location"] = 	{ 
 				["map"] = 156;
 				["mesh"] = "Mor Dhona";
-				["x"] = -471.37878417969;
-				["y"] = -6.6990823745728;
-				["z"] = -449.44326782227;
+				["x"] = -511.63702392578;
+				["y"] = -3.90353474617;
+				["z"] = -444.06030273438;
 			};			
 		};
-		[3] = {
+		[9] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Sapsa_Shelfscale";
@@ -68,9 +68,9 @@ local obj1 = {
 			["location"] = 	{ 
 				["map"] = 138;
 				["mesh"] = "Western La Noscea";
-				["x"] = -406.59475708008;
-				["y"] = -40.422142028809;
-				["z"] = -222.30645751953;
+				["x"] = -388.59475708008;
+				["y"] = -39.422142028809;
+				["z"] = -234.30645751953;
 			};			
 		};
 		
@@ -89,7 +89,7 @@ local obj1 = {
 			};			
 		};
 		
-		[6] = {
+		[2] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Ked";
@@ -103,7 +103,7 @@ local obj1 = {
 				["z"] = 132.54418945313;
 			};			
 		};
-		[7] = {
+		[3] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_U'Ghamaro_Bedesman";
@@ -112,12 +112,12 @@ local obj1 = {
 			["location"] = 	{ 
 				["map"] = 180;
 				["mesh"] = "Outer La Noscea";
-				["x"] = 42.804824829102;
-				["y"] = 22.606637954712;
-				["z"] = -757.01794433594;
+				["x"] = 71.804824829102;
+				["y"] = 23.606637954712;
+				["z"] = -715.01794433594;
 			};			
 		};
-		[8] = {
+		[6] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Sylph_Bonnet";
@@ -131,7 +131,7 @@ local obj1 = {
 				["z"] = -420.74923706055;
 			};			
 		};
-		[9] = {
+		[7] = {
 			["mode"] = "Grind";
 			["markerType"] = "grindMarker";
 			["marker"] = "Animus_Natalan_Watchwolf";
@@ -140,9 +140,9 @@ local obj1 = {
 			["location"] = 	{ 
 				["map"] = 155;
 				["mesh"] = "Coerthas";
-				["x"] = 516.59637451172;
-				["y"] = 302.80279541016;
-				["z"] = -179.02145385742;
+				["x"] = 652.19637451172;
+				["y"] = 296.140279541016;
+				["z"] = -3.3702145385742;
 			};			
 		};
 		[10] = {

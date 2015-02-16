@@ -1,0 +1,87 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Grind 1 - 5";
+			["maxLevel"] = 6;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["x"] = 312.47650146484;
+				["y"] = 65.304191589355;
+				["z"] = 176.62812805176;
+			};
+ 		};	
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Grind 6 - 10";
+			["maxLevel"] = 11;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["x"] = -103.02027893066;
+				["y"] = 52.37914276123;
+				["z"] = 280.66647338867;
+			};
+ 		};	 
+
+		[2] = {
+			["mode"] = "Grind";
+			["fateId"] = "";
+			["maxLevel"] = 20;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				
+			};
+ 		};	 
+		[3] = {
+			["mode"] = "Grind";
+			["fateId"] = "";
+			["maxLevel"] = 28;
+			["location"] = 	{ 
+				["map"] = 153;
+				["mesh"] = "South Shroud";
+				
+			};
+ 		};	 
+		[4] = {
+			["mode"] = "Grind";
+			["fateId"] = "";
+			["maxLevel"] = 34;
+			["location"] = 	{ 
+				["map"] = 137;
+				["mesh"] = "Eastern La Noscea";
+				
+			};
+ 		};
+		[5] = {
+			["mode"] = "Grind";
+			["fateId"] = "";
+			["maxLevel"] = 40;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				
+			};
+ 		};
+		[6] = {
+			["mode"] = "Grind";
+			["fateId"] = "";
+			["maxLevel"] = 50;
+			["location"] = 	{ 
+				["map"] = 147;
+				["mesh"] = "Coerthas";
+				
+			};
+ 		};
+
+	};
+}
+return obj1
+
