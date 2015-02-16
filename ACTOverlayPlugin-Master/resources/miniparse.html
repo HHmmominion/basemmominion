@@ -1,0 +1,380 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+        /*
+            ???? (1)
+        */
+
+        * {
+            /* ???? ??????????????????? */
+            font-family: "Meiryo";
+            font-size: 12px;
+        }
+
+        body, html {
+            margin: 0;
+        }
+
+        html {
+            /* ??????????
+             * ???????????????????16x16???????
+             * ?????????????????????????????????????? */
+            background-image: url(handle.png);
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+            height: 100%;
+
+            /* ?? */
+            /*border: 1px solid rgba(0,0,0,0.1);*/
+            
+            /* ???????????????????????
+             * ?????????????????????????????? */
+            overflow: hidden;
+            
+            /* ??? */
+            background-color: transparent;
+        }
+		
+#wrapper {
+        background: rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.35);
+        border-radius: 4px;
+        margin: 12px;
+    }
+
+        #combatantTable {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+
+        /* ????????????????? */
+        #combatantTableBody * {
+            color: #E2EBF5;
+            text-shadow: -1px 0 3px #217AA2, 0 1px 3px #217AA2, 1px 0 3px #217AA2, 0 -1px 3px #217AA2;
+            font-weight: 300;
+
+            /* ??????????…?????? */
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+	#combatantTableBody img {
+			height: 20px;
+
+		}
+
+        /* ????????????????????????? */
+        #encounter,
+        #combatantTableHeader * {
+            color: #DED7BE;
+            text-shadow: -1px 0 2px #795516, 0 1px 2px #795516, 1px 0 2px #795516, 0 -1px 2px #795516;
+            font-weight: 300;
+            white-space: nowrap;
+        }
+
+        /* ????????????? */
+        #combatantTableHeader tr {
+            border-bottom: 1px solid #DED7BE;
+        }
+
+    </style>
+    <script>
+
+        //
+        // ?????????????? ActXiv ??????????????????
+        //
+        // var ActXiv = {
+        //    "Encounter": {...},
+        //    "Combatant": {
+        //        "PlayerName1": {...},
+        //        "PlayerName2": {...},
+        //        ...
+        //    }
+        // };
+        //
+        // ??????? 1 ???
+        // 
+        // ??????? onOverlayDataUpdate ??????????????????????????
+        // ?????????????? detail ???????????????????
+        //
+
+        //
+        // ???? (2)
+        //
+
+        // ???????????
+        var encounterDefine = "Time: {duration} / DPS: {ENCDPS}";
+
+        // ???????????? HTML ??????? true
+        var useHTMLEncounterDefine = false;
+
+        // ??????
+        var headerDefine =
+        [
+            //{ text: "#", width: "5%", align: "center" },
+            { text: "Name", width: "10%", align: "left" },
+            { text: "Job", width: "8%", align: "center" },
+            { text: "DPS", width: "5%", align: "center", span: 1 },
+            //{ text: "DPS %", width: "5%", align: "center", span: 1 },
+			{ text: "HPS", width: "5%", align: "center" },
+            { text: "Crt %", width: "5%", align: "center" },
+        ];
+
+        // ??????????
+        var bodyDefine =
+        [
+            //{ text: rankingText, width: "5%", align: "center", effect: deadYatsuEffect },
+            { text: "{name}", width: "10%" },
+            { html: "<img src='./icons/{JobOrName}.png' onError=\"this.onerror=null;this.src='./icons/error.png';\" />", width: "5%", align: "center" },
+            { text: "{encdps}", width: "5%", align: "center" },
+            //{ text: "{damage%}", width: "5%", align: "center" },
+			{ text: "{enchps}", width: "5%", align: "center" },
+            { text: "{crithit%}", width: "5%", align: "center" },
+        ];
+
+        // ????????text ??????????
+        // ??:
+        //  combatant : ???????????combatant["..."]???????????
+        //  index : ??????????????? 0 ?????? 1 ??????
+        // ???: 
+        //  ?????????
+        //  ACT ????????????????????? parseActFormat ????????????
+        function rankingText(combatant, index) {
+            // 1 ??????????
+            return (index + 1).toString();
+        }
+        
+        // ?????????effect ???
+        // ??:
+        //  cell : ??? DOM ??
+        //  combatant : ???????????combatant["..."]???????????
+        //  index: ??????????????? 0 ?????? 1 ??????
+        // ???: ??
+        function deadYatsuEffect(cell, combatant, index) {
+            // ??????????
+            var deaths = parseInt(combatant["deaths"]);
+            // ???? 0 ????????
+            if (deaths > 0) {
+                // ????
+                cell.style.color = "#FFA0A0";
+                cell.style.textShadow = "-1px 0 3px #802020, 0 1px 3px #802020, 1px 0 3px #802020, 0 -1px 3px #802020";
+            }
+        }
+
+        //
+        // ??????????
+        //
+
+        // onOverlayDataUpdate ???????
+        document.addEventListener("onOverlayDataUpdate", function (e) {
+            update(e.detail);
+        });
+
+        // ???????
+        function update(data) {
+            updateEncounter(data);
+            if (document.getElementById("combatantTableHeader") == null) {
+                updateCombatantListHeader();
+            }
+            updateCombatantList(data);
+        }
+
+        // ?????????????
+        function updateEncounter(data) {
+            // ????
+            var encounterElem = document.getElementById('encounter');
+
+            // ??????
+            var elementText;
+            if (typeof encounterDefine === 'function') {
+                elementText = encounterDefine(data.Encounter);
+            } else if (typeof encounterDefine === 'string') {
+                elementText = parseActFormat(encounterDefine, data.Encounter);
+            } else {
+                console.log("updateEncounter: Could not update the encounter element due to invalid type.");
+                return;
+            }
+
+            // ??????
+            if (!useHTMLEncounterDefine) {
+                encounterElem.innerText = parseActFormat(encounterDefine, data.Encounter);
+            } else {
+                encounterElem.innerHTML = parseActFormat(encounterDefine, data.Encounter);
+            }
+        }
+
+        // ????????
+        function updateCombatantListHeader() {
+            var table = document.getElementById('combatantTable');
+            var tableHeader = document.createElement("thead");
+            tableHeader.id = "combatantTableHeader";
+            var headerRow = tableHeader.insertRow();
+
+            for (var i = 0; i < headerDefine.length; i++) {
+                var cell = document.createElement("th");
+                // ??????
+                if (typeof headerDefine[i].text !== 'undefined') {
+                    cell.innerText = headerDefine[i].text;
+                } else if (typeof headerDefine[i].html !== 'undefined') {
+                    cell.innerHTML = headerDefine[i].html;
+                }
+                // ???
+                cell.style.width = headerDefine[i].width;
+                cell.style.maxWidth = headerDefine[i].width;
+                // ??????
+                if (typeof headerDefine[i].span !== 'undefined') {
+                    cell.colSpan = headerDefine[i].span;
+                }
+                // ?????
+                if (typeof headerDefine[i].align !== 'undefined') {
+                    cell.style["textAlign"] = headerDefine[i].align;
+                }
+                headerRow.appendChild(cell);
+            }
+
+            table.tHead = tableHeader;
+        }
+
+        // ?????????????
+        function updateCombatantList(data) {
+            // ???????
+            var table = document.getElementById('combatantTable');
+            var oldTableBody = table.tBodies.namedItem('combatantTableBody');
+            var newTableBody = document.createElement("tbody");
+            newTableBody.id = "combatantTableBody";
+
+            // tbody ??????
+            var combatantIndex = 0;
+            for (var combatantName in data.Combatant) {
+                var combatant = data.Combatant[combatantName];
+			combatant.JobOrName = combatant.Job || combatantName;
+			var egiSearch = combatant.JobOrName.indexOf("-Egi (");
+			if (egiSearch !=-1)
+			{
+				combatant.JobOrName = combatant.JobOrName.substring(0,egiSearch);
+			}
+			else if (combatant.JobOrName.indexOf("Eos (")==0)
+			{
+				combatant.JobOrName = "Eos";
+			}
+			else if (combatant.JobOrName.indexOf("Selene (")==0)
+			{
+				combatant.JobOrName = "Selene";
+			}
+			else if (combatant.JobOrName.indexOf("Carbuncle (")!=-1)
+			{
+				// currently no carbuncle pics
+			}
+			else if (combatant.JobOrName.indexOf(" (")!=-1)
+			{
+				combatant.JobOrName = "choco";
+			}
+
+
+                var tableRow = newTableBody.insertRow(newTableBody.rows.length);
+                for (var i = 0; i < bodyDefine.length; i++)
+                {
+                    var cell = tableRow.insertCell(i);
+                    // ??????
+                    if (typeof bodyDefine[i].text !== 'undefined') {
+                        var cellText;
+                        if (typeof bodyDefine[i].text === 'function') {
+                            cellText = bodyDefine[i].text(combatant, combatantIndex);
+                        } else {
+                            cellText = parseActFormat(bodyDefine[i].text, combatant);
+                        }
+                        cell.innerText = cellText;
+                    } else if (typeof bodyDefine[i].html !== 'undefined') {
+                        var cellHTML;
+                        if (typeof bodyDefine[i].html === 'function') {
+                            cellHTML = bodyDefine[i].html(combatant, combatantIndex);
+                        } else {
+                            cellHTML = parseActFormat(bodyDefine[i].html, combatant);
+                        }
+                        cell.innerHTML = cellHTML;
+                    }
+                    // ???
+                    cell.style.width = bodyDefine[i].width;
+                    cell.style.maxWidth = bodyDefine[i].width;
+                    // ?????
+                    if (typeof(bodyDefine[i].align) !== 'undefined') {
+                        cell.style.textAlign = bodyDefine[i].align;
+                    }
+                    // ???????
+                    if (typeof bodyDefine[i].effect === 'function') {
+                        bodyDefine[i].effect(cell, combatant, combatantIndex);
+                    }
+                }
+                combatantIndex++;
+            }
+
+            // tbody ???????????????????????????
+            if (oldTableBody != void(0)) {
+                table.replaceChild(newTableBody, oldTableBody);
+            }
+            else {
+                table.appendChild(newTableBody);
+            }
+        }
+
+        // Miniparse ????????????????????????
+        function parseActFormat(str, dictionary)
+        {
+            var result = "";
+
+            var currentIndex = 0;
+            do {
+                var openBraceIndex = str.indexOf('{', currentIndex);
+                if (openBraceIndex < 0) {
+                    result += str.slice(currentIndex);
+                    break;
+                }
+                else {
+                    result += str.slice(currentIndex, openBraceIndex);
+                    var closeBraceIndex = str.indexOf('}', openBraceIndex);
+                    if (closeBraceIndex < 0) {
+                        // parse error!
+                        console.log("parseActFormat: Parse error: missing close-brace for " + openBraceIndex.toString() + ".");
+                        return "ERROR";
+                    }
+                    else {
+                        var tag = str.slice(openBraceIndex + 1, closeBraceIndex);
+                        if (typeof dictionary[tag] !== 'undefined') {
+                            result += dictionary[tag];
+                        } else {
+                            console.log("parseActFormat: Unknown tag: " + tag);
+                            result += "ERROR";
+                        }
+                        currentIndex = closeBraceIndex + 1;
+                    }
+                }
+            } while (currentIndex < str.length);
+            
+            return result;
+        }
+
+    </script>
+</head>
+<div id="wrapper">
+   <body>
+
+    <div id="encounter">
+        No data to show.
+        <!-- ?????????????? -->
+    </div>
+
+    <table id="combatantTable">
+        <!-- ????????? -->
+        <!-- ????????????? -->
+    </table>
+
+</body>
+<table id="combatantTable">
+    </table>
+</div>
+</html>
