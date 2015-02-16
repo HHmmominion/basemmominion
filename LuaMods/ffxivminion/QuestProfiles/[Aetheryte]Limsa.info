@@ -1,0 +1,234 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["quests"] = {
+		[323] = {
+			["steps"] = {
+				[1] = {
+					["mapid"] = 129;
+					["type"] = "start";
+					["itemturnin"] = false;
+					["delay"] = 5000;
+					["id"] = 1003355;
+					["itemreward"] = false;
+					["meshname"] = "Limsa (Lower)";
+					["pos"] = {
+						["y"] = 18.000333786011;
+						["x"] = -62.480316162109;
+						["z"] = 6.6096668243408;
+					};
+				};
+				[2] = {
+					["mapid"] = 129;
+					["type"] = "interact";
+					["id"] = 43;
+					["delay"] = 10000;
+					["meshname"] = "Limsa (Lower)";
+					["pos"] = {
+						["y"] = 11.999263763428;
+						["x"] = -335.12344360352;
+						["z"] = 55.440372467041;
+					};
+				};
+				[4] = {
+					["mapid"] = 129;
+					["type"] = "interact";
+					["id"] = 44;
+					["delay"] = 10000;
+					["meshname"] = "Limsa (Lower)";
+					["pos"] = {
+						["y"] = 4;
+						["x"] = -179.95210266113;
+						["z"] = 181.70880126953;
+					};
+				};
+				[8] = {
+					["mapid"] = 138;
+					["type"] = "interact";
+					["meshname"] = "Western La Noscea";
+					["id"] = 14;
+					["itemreward"] = false;
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = -22.75;
+						["x"] = 265.50637817383;
+						["z"] = 218.72763061523;
+					};
+				};
+				[16] = {
+					["type"] = "interact";
+					["id"] = 1009944;
+					["itemreward"] = false;
+					["mapid"] = 129;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001513;
+					};
+					["delay"] = 5000;
+					["meshname"] = "Limsa (Lower)";
+					["pos"] = {
+						["y"] = 2.8562405109406;
+						["x"] = -151.32211303711;
+						["z"] = 242.28257751465;
+					};
+				};
+				[17] = {
+					["mapid"] = 129;
+					["type"] = "complete";
+					["pos"] = {
+						["y"] = 18.000333786011;
+						["x"] = -61.860488891602;
+						["z"] = 7.1005291938782;
+					};
+					["delay"] = 5000;
+					["id"] = 1003355;
+					["itemreward"] = false;
+					["meshname"] = "Limsa (Lower)";
+					["itemrewardslot"] = 0;
+				};
+				[9] = {
+					["mapid"] = 138;
+					["type"] = "interact";
+					["id"] = 13;
+					["meshname"] = "Western La Noscea";
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 8.9707660675049;
+						["x"] = 655.80615234375;
+						["z"] = 512.90106201172;
+					};
+				};
+				[5] = {
+					["mapid"] = 128;
+					["type"] = "interact";
+					["id"] = 41;
+					["delay"] = 10000;
+					["meshname"] = "Limsa (Upper)";
+					["pos"] = {
+						["y"] = 40;
+						["x"] = 15.53844165802;
+						["z"] = 70.010971069336;
+					};
+				};
+				[10] = {
+					["mapid"] = 134;
+					["type"] = "interact";
+					["id"] = 52;
+					["meshname"] = "Middle La Noscea";
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 112.98616790771;
+						["x"] = 232.56811523438;
+						["z"] = -258.96517944336;
+					};
+				};
+				[11] = {
+					["mapid"] = 135;
+					["type"] = "interact";
+					["meshname"] = "Lower La Noscea";
+					["id"] = 10;
+					["itemreward"] = false;
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 14.114988327026;
+						["x"] = 151.61874389648;
+						["z"] = 674.06842041016;
+					};
+				};
+				[3] = {
+					["mapid"] = 129;
+					["type"] = "interact";
+					["id"] = 49;
+					["delay"] = 10000;
+					["meshname"] = "Limsa (Lower)";
+					["pos"] = {
+						["y"] = 16;
+						["x"] = -214.35122680664;
+						["z"] = 50.909423828125;
+					};
+				};
+				[6] = {
+					["mapid"] = 128;
+					["type"] = "interact";
+					["id"] = 42;
+					["delay"] = 10000;
+					["meshname"] = "Limsa (Upper)";
+					["pos"] = {
+						["y"] = 41.999980926514;
+						["x"] = -55.114372253418;
+						["z"] = -130.40245056152;
+					};
+				};
+				[12] = {
+					["mapid"] = 137;
+					["type"] = "interact";
+					["meshname"] = "Eastern La Noscea";
+					["id"] = 11;
+					["itemreward"] = false;
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 17.939399719238;
+						["x"] = 492.50335693359;
+						["z"] = 467.37927246094;
+					};
+				};
+				[13] = {
+					["mapid"] = 137;
+					["type"] = "interact";
+					["meshname"] = "Eastern La Noscea";
+					["id"] = 12;
+					["itemreward"] = false;
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 70.599250793457;
+						["x"] = -15.106657981873;
+						["z"] = 4.3505458831787;
+					};
+				};
+				[7] = {
+					["mapid"] = 128;
+					["type"] = "interact";
+					["id"] = 48;
+					["delay"] = 10000;
+					["meshname"] = "Limsa (Upper)";
+					["pos"] = {
+						["y"] = 44;
+						["x"] = -3.5387897491455;
+						["z"] = -217.44264221191;
+					};
+				};
+				[14] = {
+					["mapid"] = 139;
+					["type"] = "interact";
+					["meshname"] = "Upper La Noscea";
+					["id"] = 15;
+					["itemreward"] = false;
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 3.6090095043182;
+						["x"] = 435.23025512695;
+						["z"] = 90.858009338379;
+					};
+				};
+				[15] = {
+					["mapid"] = 180;
+					["type"] = "interact";
+					["meshname"] = "Outer La Noscea";
+					["id"] = 16;
+					["itemreward"] = false;
+					["delay"] = 10000;
+					["pos"] = {
+						["y"] = 64.802108764648;
+						["x"] = -121.04612731934;
+						["z"] = -212.37741088867;
+					};
+				};
+			};
+			["level"] = 1;
+			["prereq"] = false;
+		};
+	};
+}
+return obj1
