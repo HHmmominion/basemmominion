@@ -221,8 +221,8 @@ SkillMgr.Variables = {
 	SKM_PMPPB = { default = 0, cast = "number", profile = "pmppb", section = "fighting"   },
 	SKM_PTPL = { default = 0, cast = "number", profile = "ptpl", section = "fighting"  },
 	SKM_PTPB = { default = 0, cast = "number", profile = "ptpb", section = "fighting"   },
-	SKM_PAGL = { default = 0, cast = "number", profile = "pagl", section = "fighting"   },
-	SKM_PAGB = { default = 0, cast = "number", profile = "pagb", section = "fighting"   },
+	--SKM_PAGL = { default = 0, cast = "number", profile = "pagl", section = "fighting"   },
+	--SKM_PAGB = { default = 0, cast = "number", profile = "pagb", section = "fighting"   },
 	SKM_THPL = { default = 0, cast = "number", profile = "thpl", section = "fighting"   },
 	SKM_THPB = { default = 0, cast = "number", profile = "thpb", section = "fighting"   },
 	SKM_PTCount = { default = 0, cast = "number", profile = "ptcount", section = "fighting"   },
@@ -831,6 +831,7 @@ function SkillMgr.ReadFile(strFile)
 	if (ValidTable(profile)) then
 		SkillMgr.SkillProfile = profile.skills
 	end
+	SkillMgr.ResetSkillTracking()
 end
 
 --All writes to the profiles should come through this function.
@@ -842,6 +843,7 @@ function SkillMgr.WriteToFile(strFile)
 	
 	local info = {}
 	info.version = 2
+	SkillMgr.ResetSkillTracking()
 	info.skills = SkillMgr.SkillProfile or {}	
 	persistence.store(filename,info)
 end
@@ -1176,7 +1178,8 @@ end
 
 
 --+Rebuilds the UI Entries for the Profile-SkillList
-function SkillMgr.RefreshSkillList()	
+function SkillMgr.RefreshSkillList()
+	GUI_DeleteGroup(SkillMgr.mainwindow.name,"ProfileSkills")
     if ( TableSize( SkillMgr.SkillProfile ) > 0 ) then
 		for prio,skill in pairsByKeys(SkillMgr.SkillProfile) do
 			if (not IsNullString(skill.alias)) then
@@ -1187,6 +1190,15 @@ function SkillMgr.RefreshSkillList()
 		end
 		GUI_UnFoldGroup(SkillMgr.mainwindow.name,"ProfileSkills")
     end
+end
+
+function SkillMgr.ResetSkillTracking()
+	local skills = SkillMgr.SkillProfile
+	if (ValidTable(skills)) then
+		for prio,skill in pairs(skills) do
+			skill.lastcast = 0
+		end
+	end
 end
 
 function SkillMgr.CreateNewSkillEntry(skill)
@@ -1201,8 +1213,6 @@ function SkillMgr.CreateNewSkillEntry(skill)
 	local job = Player.job
 	local newskillprio = TableSize(SkillMgr.SkillProfile)+1
 	local bevent = tostring(newskillprio)
-	
-	GUI_NewButton(SkillMgr.mainwindow.name, tostring(bevent)..": "..skname.."["..tostring(skID).."]", "SKMEditSkill"..tostring(bevent),"ProfileSkills")
 
 	SkillMgr.SkillProfile[newskillprio] = {	["id"] = skID, ["prio"] = newskillprio, ["name"] = skname, ["used"] = "1", ["alias"] = "", ["type"] = 1 }
 	if (job >= 8 and job <= 15) then
@@ -1380,7 +1390,7 @@ function SkillMgr.Cast( entity , preCombat, forceStop )
 		end
 		
 		if ( EID and PID and TableSize(SkillMgr.SkillProfile) > 0 ) then
-			for prio,skill in spairs(SkillMgr.SkillProfile) do
+			for prio,skill in pairsByKeys(SkillMgr.SkillProfile) do
 				ally = nil
 				allyHP = nil
 				allyMP = nil
@@ -1579,18 +1589,6 @@ function SkillMgr.Cast( entity , preCombat, forceStop )
 								healTargets["Party"] = GetBestPartyHealTarget( false, realskilldata.range )
 								healTargets["Any"] = GetBestHealTarget( false, realskilldata.range ) 
 							end
-							
-							--if (gSkillManagerDebug == "1") then
-								for i,trgstring in ipairs(priorities) do
-									d("i:"..tostring(i)..",string:"..tostring(trgstring))
-								end
-							--end
-							
-							--if (gSkillManagerDebug == "1") then
-								for name,target in pairs(healTargets) do
-									d("name:"..tostring(name)..",target:"..tostring(ValidTable(target)))
-								end
-							--end
 							
 							for i,trgstring in ipairs(priorities) do
 								if (healTargets[trgstring]) then
@@ -2193,6 +2191,7 @@ function SkillMgr.AddDefaultConditions()
 	, eval = function()	
 		local skill = SkillMgr.CurrentSkill
 		local realskilldata = SkillMgr.CurrentSkillData
+		
 		if ( skill.dobuff == "1" and skill.lastcast) then
 			if ((skill.lastcast + 1000) > Now()) then
 				return true
