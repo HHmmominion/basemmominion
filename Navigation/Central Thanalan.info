@@ -25,18 +25,17 @@ local obj1 = {
 					["name"] = "red";
 					["order"] = 6;
 				};
-				["Whitelist Target"] = {
-					["type"] = "button";
-					["name"] = "Whitelist Target";
-					["value"] = "";
-					["choices"] = "";
-					["order"] = 15;
-				};
 				["green"] = {
 					["value"] = 0;
 					["type"] = "int";
 					["name"] = "green";
 					["order"] = 7;
+				};
+				["z"] = {
+					["value"] = -348.55996704102;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
 				};
 				["Min Level"] = {
 					["value"] = 7;
@@ -56,11 +55,11 @@ local obj1 = {
 					["name"] = "y";
 					["order"] = 3;
 				};
-				["h"] = {
-					["value"] = -2.5173041820526;
-					["type"] = "float";
-					["name"] = "h";
-					["order"] = 5;
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
 				};
 				["Name"] = {
 					["value"] = "Grind Marker7880";
@@ -68,11 +67,12 @@ local obj1 = {
 					["name"] = "Name";
 					["order"] = 1;
 				};
-				["z"] = {
-					["value"] = -348.55996704102;
-					["type"] = "float";
-					["name"] = "z";
-					["order"] = 4;
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
 				};
 				["x"] = {
 					["value"] = -32.880931854248;
@@ -80,11 +80,11 @@ local obj1 = {
 					["name"] = "x";
 					["order"] = 2;
 				};
-				["NOT ContentID="] = {
-					["value"] = "";
-					["type"] = "string";
-					["name"] = "NOT ContentID=";
-					["order"] = 14;
+				["h"] = {
+					["value"] = -2.5173041820526;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
 				};
 				["Max Level"] = {
 					["value"] = 12;

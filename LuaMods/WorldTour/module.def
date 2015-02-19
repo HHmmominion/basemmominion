@@ -1,0 +1,6 @@
+[Module]
+Name=WorldTour
+Version=1
+Files=init.lua
+Enabled=1
+Dependencies=minionlib,FFXIVMINION

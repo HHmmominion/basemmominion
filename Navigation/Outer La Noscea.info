@@ -11,106 +11,106 @@ local obj1 = {
 					["type"] = "string";
 					["name"] = "type";
 					["value"] = "Fishing Marker";
-					["order"] = 9;
 					["choices"] = "";
+					["order"] = 9;
 				};
 				["blue"] = {
 					["type"] = "int";
 					["name"] = "blue";
 					["value"] = 0;
+					["choices"] = "";
 					["order"] = 8;
-					["choices"] = "";
-				};
-				["red"] = {
-					["type"] = "int";
-					["name"] = "red";
-					["value"] = 0;
-					["order"] = 6;
-					["choices"] = "";
-				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
-					["choices"] = "";
-				};
-				["z"] = {
-					["type"] = "float";
-					["name"] = "z";
-					["value"] = -512.65;
-					["order"] = 4;
-					["choices"] = "";
-				};
-				["Min Level"] = {
-					["type"] = "int";
-					["name"] = "Min Level";
-					["value"] = 40;
-					["order"] = 11;
-					["choices"] = "";
-				};
-				["Time (s)"] = {
-					["type"] = "int";
-					["name"] = "Time (s)";
-					["value"] = 2732;
-					["order"] = 10;
-					["choices"] = "";
-				};
-				["y"] = {
-					["type"] = "float";
-					["name"] = "y";
-					["value"] = 18.45;
-					["order"] = 3;
-					["choices"] = "";
-				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = 0.514;
-					["order"] = 5;
-					["choices"] = "";
-				};
-				["Name"] = {
-					["type"] = "string";
-					["name"] = "Name";
-					["value"] = "Fishing - The Long Climb";
-					["order"] = 1;
-					["choices"] = "";
-				};
-				["green"] = {
-					["type"] = "int";
-					["name"] = "green";
-					["value"] = 0;
-					["order"] = 7;
-					["choices"] = "";
-				};
-				["Max Level"] = {
-					["type"] = "int";
-					["name"] = "Max Level";
-					["value"] = 45;
-					["order"] = 12;
-					["choices"] = "";
-				};
-				["Use Mooch"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Mooch";
-					["value"] = "0";
-					["order"] = 14;
-					["choices"] = "";
-				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -301.5;
-					["order"] = 2;
-					["choices"] = "";
 				};
 				["Bait Name"] = {
 					["type"] = "string";
 					["name"] = "Bait Name";
 					["value"] = "Stem Borer";
-					["order"] = 13;
 					["choices"] = "";
+					["order"] = 13;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -301.5;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 40;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 2732;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 18.45;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Fishing - The Long Climb";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -512.65;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 45;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.514;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
 				};
 			};
 		};
@@ -129,92 +129,22 @@ local obj1 = {
 					["type"] = "string";
 					["name"] = "type";
 					["value"] = "Grind Marker";
-					["order"] = 9;
 					["choices"] = "";
+					["order"] = 9;
 				};
 				["blue"] = {
 					["type"] = "int";
 					["name"] = "blue";
 					["value"] = 0;
+					["choices"] = "";
 					["order"] = 8;
-					["choices"] = "";
 				};
-				["red"] = {
-					["type"] = "int";
-					["name"] = "red";
-					["value"] = 0;
-					["order"] = 6;
-					["choices"] = "";
-				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = 220.12606811523;
-					["order"] = 2;
-					["choices"] = "";
-				};
-				["z"] = {
-					["type"] = "float";
-					["name"] = "z";
-					["value"] = -753.0712890625;
-					["order"] = 4;
-					["choices"] = "";
-				};
-				["Min Level"] = {
-					["type"] = "int";
-					["name"] = "Min Level";
-					["value"] = 1;
-					["order"] = 11;
-					["choices"] = "";
-				};
-				["Time (s)"] = {
-					["type"] = "int";
-					["name"] = "Time (s)";
-					["value"] = 300;
-					["order"] = 10;
-					["choices"] = "";
-				};
-				["y"] = {
-					["type"] = "float";
-					["name"] = "y";
-					["value"] = 24.833885192871;
-					["order"] = 3;
-					["choices"] = "";
-				};
-				["NOT ContentID="] = {
+				["ContentID="] = {
 					["type"] = "string";
-					["name"] = "NOT ContentID=";
-					["value"] = "";
-					["order"] = 15;
+					["name"] = "ContentID=";
+					["value"] = 2520;
 					["choices"] = "";
-				};
-				["Name"] = {
-					["type"] = "string";
-					["name"] = "Name";
-					["value"] = "Elite Priests";
-					["order"] = 1;
-					["choices"] = "";
-				};
-				["Whitelist Target"] = {
-					["type"] = "button";
-					["name"] = "Whitelist Target";
-					["value"] = "";
-					["order"] = 14;
-					["choices"] = "";
-				};
-				["Max Level"] = {
-					["type"] = "int";
-					["name"] = "Max Level";
-					["value"] = 50;
-					["order"] = 12;
-					["choices"] = "";
-				};
-				["green"] = {
-					["type"] = "int";
-					["name"] = "green";
-					["value"] = 0;
-					["order"] = 7;
-					["choices"] = "";
+					["order"] = 13;
 				};
 				["h"] = {
 					["choices"] = "";
@@ -222,12 +152,82 @@ local obj1 = {
 					["name"] = "h";
 					["order"] = 5;
 				};
-				["ContentID="] = {
-					["type"] = "string";
-					["name"] = "ContentID=";
-					["value"] = 2520;
-					["order"] = 13;
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
 					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 300;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 24.833885192871;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 220.12606811523;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Elite Priests";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -753.0712890625;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
 				};
 			};
 		};

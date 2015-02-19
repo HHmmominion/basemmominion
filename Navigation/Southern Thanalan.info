@@ -28,12 +28,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 13;
 				};
-				["x"] = {
+				["h"] = {
 					["type"] = "float";
-					["name"] = "x";
-					["value"] = 183.12;
+					["name"] = "h";
+					["value"] = -2.628;
 					["choices"] = "";
-					["order"] = 2;
+					["order"] = 5;
 				};
 				["green"] = {
 					["type"] = "int";
@@ -63,12 +63,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 3;
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 183.12;
 					["choices"] = "";
-					["order"] = 15;
+					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
@@ -98,12 +98,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 14;
 				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = -2.628;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
 					["choices"] = "";
-					["order"] = 5;
+					["order"] = 15;
 				};
 				["red"] = {
 					["type"] = "int";
@@ -138,12 +138,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 13;
 				};
-				["x"] = {
+				["h"] = {
 					["type"] = "float";
-					["name"] = "x";
-					["value"] = 23.15;
+					["name"] = "h";
+					["value"] = -0.304;
 					["choices"] = "";
-					["order"] = 2;
+					["order"] = 5;
 				};
 				["green"] = {
 					["type"] = "int";
@@ -173,12 +173,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 3;
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 23.15;
 					["choices"] = "";
-					["order"] = 15;
+					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
@@ -208,12 +208,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 14;
 				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = -0.304;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
 					["choices"] = "";
-					["order"] = 5;
+					["order"] = 15;
 				};
 				["red"] = {
 					["type"] = "int";
@@ -248,12 +248,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 13;
 				};
-				["x"] = {
+				["h"] = {
 					["type"] = "float";
-					["name"] = "x";
-					["value"] = -306.85;
+					["name"] = "h";
+					["value"] = 0.207;
 					["choices"] = "";
-					["order"] = 2;
+					["order"] = 5;
 				};
 				["green"] = {
 					["type"] = "int";
@@ -283,12 +283,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 3;
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -306.85;
 					["choices"] = "";
-					["order"] = 15;
+					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
@@ -318,12 +318,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 14;
 				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = 0.207;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
 					["choices"] = "";
-					["order"] = 5;
+					["order"] = 15;
 				};
 				["red"] = {
 					["type"] = "int";
@@ -358,12 +358,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 13;
 				};
-				["x"] = {
+				["h"] = {
 					["type"] = "float";
-					["name"] = "x";
-					["value"] = -436.1;
+					["name"] = "h";
+					["value"] = -1.796;
 					["choices"] = "";
-					["order"] = 2;
+					["order"] = 5;
 				};
 				["green"] = {
 					["type"] = "int";
@@ -393,12 +393,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 3;
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -436.1;
 					["choices"] = "";
-					["order"] = 15;
+					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
@@ -428,12 +428,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 14;
 				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = -1.796;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
 					["choices"] = "";
-					["order"] = 5;
+					["order"] = 15;
 				};
 				["red"] = {
 					["type"] = "int";
@@ -468,12 +468,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 13;
 				};
-				["x"] = {
+				["h"] = {
 					["type"] = "float";
-					["name"] = "x";
-					["value"] = 202.06;
+					["name"] = "h";
+					["value"] = 2.693;
 					["choices"] = "";
-					["order"] = 2;
+					["order"] = 5;
 				};
 				["green"] = {
 					["type"] = "int";
@@ -503,12 +503,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 3;
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 202.06;
 					["choices"] = "";
-					["order"] = 15;
+					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
@@ -538,12 +538,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 14;
 				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = 2.693;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
 					["choices"] = "";
-					["order"] = 5;
+					["order"] = 15;
 				};
 				["red"] = {
 					["type"] = "int";
@@ -1083,7 +1083,7 @@ local obj1 = {
 				["Item Priority 1"] = {
 					["type"] = "string";
 					["name"] = "Item Priority 1";
-					["value"] = "None";
+					["value"] = "Lightning Shard";
 					["choices"] = "";
 					["order"] = 13;
 				};
@@ -1182,166 +1182,7 @@ local obj1 = {
 					["type"] = "combobox";
 					["name"] = "Skill Profile";
 					["value"] = "None";
-					["choices"] = "None,Alchemie,Arcanist-Ace,Arcanist,Arcanist_Conjurer,Archer,Bard-Ace-PVP,Bard-Ace,Bard,BLM AOE,BLM-Ace,BLM3.0,Botanist,BRD-WP,BRD3.0,Conjurer-Ace,Conjurer,Culinarian,Dragoon-Ace,Dragoon,DRG3.0,Gladiator,Lancer,Marauder,Miner,MNK2.0,Monk-Ace-PVP,Monk-Ace,Monk,MRD-Ace-PVP,MRD-PVE,Paladin,PLD3.0,Pugilist,SCH3.0_healonly,Scholar-Ace,Scholar,SMN2.0,Summoner-Ace,Summoner,Thaumaturge,Thaumaturge_Conjurer,WAR3.0,Wards,WHM2.0_Healonly";
-					["order"] = 21;
-				};
-				["ContentID="] = {
-					["type"] = "string";
-					["name"] = "ContentID=";
-					["value"] = "";
-					["choices"] = "";
-					["order"] = 15;
-				};
-			};
-		};
-		["Botany 50"] = {
-			["order"] = 2;
-			["fields"] = {
-				["Max Level"] = {
-					["type"] = "int";
-					["name"] = "Max Level";
-					["value"] = 50;
-					["choices"] = "";
-					["order"] = 12;
-				};
-				["Time (s)"] = {
-					["type"] = "int";
-					["name"] = "Time (s)";
-					["value"] = 1332;
-					["choices"] = "";
-					["order"] = 10;
-				};
-				["Valid Slots"] = {
-					["type"] = "string";
-					["name"] = "Valid Slots";
-					["value"] = "";
-					["choices"] = "";
-					["order"] = 22;
-				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = -2.097;
-					["choices"] = "";
-					["order"] = 5;
-				};
-				["Item Priority 2"] = {
-					["type"] = "string";
-					["name"] = "Item Priority 2";
-					["value"] = "None";
-					["choices"] = "";
-					["order"] = 14;
-				};
-				["Whitelist Target"] = {
-					["type"] = "button";
-					["name"] = "Whitelist Target";
-					["value"] = "";
-					["choices"] = "";
-					["order"] = 16;
-				};
-				["Item Priority 1"] = {
-					["type"] = "string";
-					["name"] = "Item Priority 1";
-					["value"] = "None";
-					["choices"] = "";
-					["order"] = 13;
-				};
-				["Gather Gardening"] = {
-					["type"] = "checkbox";
-					["name"] = "Gather Gardening";
-					["value"] = "1";
-					["choices"] = "";
-					["order"] = 20;
-				};
-				["red"] = {
-					["type"] = "int";
-					["name"] = "red";
-					["value"] = 0;
-					["choices"] = "";
-					["order"] = 6;
-				};
-				["type"] = {
-					["type"] = "string";
-					["name"] = "type";
-					["value"] = "Botany Marker";
-					["choices"] = "";
-					["order"] = 9;
-				};
-				["blue"] = {
-					["type"] = "int";
-					["name"] = "blue";
-					["value"] = 0;
-					["choices"] = "";
-					["order"] = 8;
-				};
-				["Gather Maps"] = {
-					["type"] = "combobox";
-					["name"] = "Gather Maps";
-					["value"] = "Any";
-					["choices"] = "Any,Peisteskin Only,None";
-					["order"] = 19;
-				};
-				["Min Level"] = {
-					["type"] = "int";
-					["name"] = "Min Level";
-					["value"] = 46;
-					["choices"] = "";
-					["order"] = 11;
-				};
-				["z"] = {
-					["type"] = "float";
-					["name"] = "z";
-					["value"] = 535.84;
-					["choices"] = "";
-					["order"] = 4;
-				};
-				["y"] = {
-					["type"] = "float";
-					["name"] = "y";
-					["value"] = 8;
-					["choices"] = "";
-					["order"] = 3;
-				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -383.63;
-					["choices"] = "";
-					["order"] = 2;
-				};
-				["Name"] = {
-					["type"] = "string";
-					["name"] = "Name";
-					["value"] = "Botany 50";
-					["choices"] = "";
-					["order"] = 1;
-				};
-				["green"] = {
-					["type"] = "int";
-					["name"] = "green";
-					["value"] = 0;
-					["choices"] = "";
-					["order"] = 7;
-				};
-				["NOT ContentID="] = {
-					["type"] = "string";
-					["name"] = "NOT ContentID=";
-					["value"] = "";
-					["choices"] = "";
-					["order"] = 17;
-				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["choices"] = "";
-					["order"] = 18;
-				};
-				["Skill Profile"] = {
-					["type"] = "combobox";
-					["name"] = "Skill Profile";
-					["value"] = "None";
-					["choices"] = "None,Alchemie,Arcanist-Ace,Arcanist,Arcanist_Conjurer,Archer,Bard-Ace-PVP,Bard-Ace,Bard,BLM AOE,BLM-Ace,BLM3.0,Botanist,BRD-WP,BRD3.0,Conjurer-Ace,Conjurer,Culinarian,Dragoon-Ace,Dragoon,DRG3.0,Gladiator,Lancer,Marauder,Miner,MNK2.0,Monk-Ace-PVP,Monk-Ace,Monk,MRD-Ace-PVP,MRD-PVE,Paladin,PLD3.0,Pugilist,SCH3.0_healonly,Scholar-Ace,Scholar,SMN2.0,Summoner-Ace,Summoner,Thaumaturge,Thaumaturge_Conjurer,WAR3.0,Wards,WHM2.0_Healonly";
+					["choices"] = "None,Arcanist,Archer,Bard,Black_Mage,BLM AOE,BLM_50,Botanist,Conjurer,Culinarian,Dragoon-Ace-PVP,Dragoon,Gather,Gladiator,Lancer,Marauder,Miner,Monk-Ace-PVP,Monk,Monk_50,Ninja,Ninja.S.v06,Paladin,Pugilist,Rogue,Rogue.S.v0.4,SCH.S.v1.2,Scholar,Summoner,Thaumaturge,UltimateSummoner,Warrior,White_Mage,WHM C&H 1.7,WHM Ramuh Rest,[Craft]750 Items";
 					["order"] = 21;
 				};
 				["ContentID="] = {
@@ -1385,19 +1226,19 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 13;
 				};
-				["NOT ContentID="] = {
-					["type"] = "string";
-					["name"] = "NOT ContentID=";
-					["value"] = "";
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 457.43046951294;
 					["choices"] = "";
-					["order"] = 15;
+					["order"] = 2;
 				};
-				["Whitelist Target"] = {
-					["type"] = "button";
-					["name"] = "Whitelist Target";
-					["value"] = "";
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -135.54364013672;
 					["choices"] = "";
-					["order"] = 14;
+					["order"] = 4;
 				};
 				["Min Level"] = {
 					["type"] = "int";
@@ -1420,11 +1261,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 3;
 				};
-				["h"] = {
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
 					["choices"] = "";
-					["type"] = "float";
-					["name"] = "h";
-					["order"] = 5;
+					["order"] = 15;
 				};
 				["Name"] = {
 					["type"] = "string";
@@ -1433,12 +1275,12 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 1;
 				};
-				["green"] = {
-					["type"] = "int";
-					["name"] = "green";
-					["value"] = 0;
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
 					["choices"] = "";
-					["order"] = 7;
+					["order"] = 14;
 				};
 				["Max Level"] = {
 					["type"] = "int";
@@ -1447,19 +1289,18 @@ local obj1 = {
 					["choices"] = "";
 					["order"] = 12;
 				};
-				["z"] = {
-					["type"] = "float";
-					["name"] = "z";
-					["value"] = -135.54364013672;
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
 					["choices"] = "";
-					["order"] = 4;
+					["order"] = 7;
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = 457.43046951294;
+				["h"] = {
 					["choices"] = "";
-					["order"] = 2;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
 				};
 				["red"] = {
 					["type"] = "int";
@@ -1494,18 +1335,17 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -131.43046951294;
-					["order"] = 2;
+				["h"] = {
 					["choices"] = "";
-				};
-				["z"] = {
 					["type"] = "float";
-					["name"] = "z";
-					["value"] = 102.54364013672;
-					["order"] = 4;
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
 					["choices"] = "";
 				};
 				["Min Level"] = {
@@ -1529,11 +1369,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["NOT ContentID="] = {
-					["type"] = "string";
-					["name"] = "NOT ContentID=";
-					["value"] = "";
-					["order"] = 15;
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -131.43046951294;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -1543,11 +1383,11 @@ local obj1 = {
 					["order"] = 1;
 					["choices"] = "";
 				};
-				["Whitelist Target"] = {
-					["type"] = "button";
-					["name"] = "Whitelist Target";
-					["value"] = "";
-					["order"] = 14;
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 102.54364013672;
+					["order"] = 4;
 					["choices"] = "";
 				};
 				["Max Level"] = {
@@ -1557,18 +1397,19 @@ local obj1 = {
 					["order"] = 12;
 					["choices"] = "";
 				};
-				["green"] = {
-					["type"] = "int";
-					["name"] = "green";
-					["value"] = 0;
-					["order"] = 7;
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 14;
 					["choices"] = "";
 				};
-				["h"] = {
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["order"] = 15;
 					["choices"] = "";
-					["type"] = "float";
-					["name"] = "h";
-					["order"] = 5;
 				};
 				["ContentID="] = {
 					["type"] = "string";
