@@ -168,11 +168,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -0.214;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -203,11 +203,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = -0.214;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -339.7;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -238,11 +238,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -339.7;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -278,11 +278,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.455;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -313,11 +313,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = 1.455;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -330.64;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -348,11 +348,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -330.64;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -388,11 +388,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 2.338;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -423,11 +423,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = 2.338;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = 116.16;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -458,11 +458,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = 116.16;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -498,11 +498,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 1.543;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -533,11 +533,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = 1.543;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -204.1;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -568,11 +568,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -204.1;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -608,11 +608,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -1.66;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -643,11 +643,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = -1.66;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -481;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -678,11 +678,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -481;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -718,11 +718,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -1.616;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -753,11 +753,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = -1.616;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -532.3;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -788,11 +788,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -532.3;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -828,11 +828,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -1.611;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -863,11 +863,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = -1.611;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -318.39;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -898,11 +898,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -318.39;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -938,11 +938,11 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "0";
-					["order"] = 15;
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -1.977;
+					["order"] = 5;
 					["choices"] = "";
 				};
 				["z"] = {
@@ -973,11 +973,11 @@ local obj1 = {
 					["order"] = 3;
 					["choices"] = "";
 				};
-				["h"] = {
+				["x"] = {
 					["type"] = "float";
-					["name"] = "h";
-					["value"] = -1.977;
-					["order"] = 5;
+					["name"] = "x";
+					["value"] = -209.06;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Name"] = {
@@ -1008,11 +1008,11 @@ local obj1 = {
 					["order"] = 14;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -209.06;
-					["order"] = 2;
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 15;
 					["choices"] = "";
 				};
 				["Bait Name"] = {
@@ -2142,9 +2142,14 @@ local obj1 = {
 			};
 		};
 	};
+	["evacPoint"] = {
+		["y"] = 45;
+		["x"] = 63.999649047852;
+		["h"] = 0.77606225013733;
+		["z"] = -233.06050109863;
+	};
 	["Grind Marker"] = {
-		["4th_cohort_Signifer"] = {
-			["order"] = 1;
+		["4th_Cohort_Hoplomachi"] = {
 			["fields"] = {
 				["type"] = {
 					["type"] = "string";
@@ -2167,18 +2172,18 @@ local obj1 = {
 					["order"] = 6;
 					["choices"] = "";
 				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -438.27861022949;
-					["order"] = 2;
-					["choices"] = "";
-				};
 				["z"] = {
 					["type"] = "float";
 					["name"] = "z";
-					["value"] = -736.72108459473;
+					["value"] = -720.76812744141;
 					["order"] = 4;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -470.63034057617;
+					["order"] = 2;
 					["choices"] = "";
 				};
 				["Min Level"] = {
@@ -2198,7 +2203,7 @@ local obj1 = {
 				["y"] = {
 					["type"] = "float";
 					["name"] = "y";
-					["value"] = 51.284423828125;
+					["value"] = 50.145755767822;
 					["order"] = 3;
 					["choices"] = "";
 				};
@@ -2212,7 +2217,7 @@ local obj1 = {
 				["Name"] = {
 					["type"] = "string";
 					["name"] = "Name";
-					["value"] = "4th_cohort_Signifer";
+					["value"] = "4th_Cohort_Hoplomachi";
 					["order"] = 1;
 					["choices"] = "";
 				};
@@ -2246,18 +2251,122 @@ local obj1 = {
 				["ContentID="] = {
 					["type"] = "string";
 					["name"] = "ContentID=";
+					["value"] = 1815;
+					["order"] = 13;
+					["choices"] = "";
+				};
+			};
+			["order"] = 2;
+		};
+		["4th_cohort_Signifer"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Grind Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 300;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 51.284423828125;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["h"] = {
+					["choices"] = "";
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "4th_cohort_Signifer";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -736.72108459473;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -438.27861022949;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
 					["value"] = 1819;
 					["order"] = 13;
 					["choices"] = "";
 				};
 			};
 		};
-	};
-	["evacPoint"] = {
-		["y"] = 45;
-		["x"] = 61.195652008057;
-		["h"] = 0.77606225013733;
-		["z"] = -232.83351135254;
 	};
 }
 return obj1
