@@ -4,123 +4,13 @@ local multiRefObjects = {
 } -- multiRefObjects
 local obj1 = {
 	["Fishing Marker"] = {
-		["Fishing - Sapsa"] = {
+		["Navigator451"] = {
 			["order"] = 2;
 			["fields"] = {
 				["type"] = {
 					["type"] = "string";
 					["name"] = "type";
 					["value"] = "Fishing Marker";
-					["order"] = 9;
-					["choices"] = "";
-				};
-				["blue"] = {
-					["type"] = "int";
-					["name"] = "blue";
-					["value"] = 0;
-					["order"] = 8;
-					["choices"] = "";
-				};
-				["red"] = {
-					["type"] = "int";
-					["name"] = "red";
-					["value"] = 0;
-					["order"] = 6;
-					["choices"] = "";
-				};
-				["Use Stealth"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Stealth";
-					["value"] = "1";
-					["order"] = 15;
-					["choices"] = "";
-				};
-				["z"] = {
-					["type"] = "float";
-					["name"] = "z";
-					["value"] = -296.89;
-					["order"] = 4;
-					["choices"] = "";
-				};
-				["Min Level"] = {
-					["type"] = "int";
-					["name"] = "Min Level";
-					["value"] = 45;
-					["order"] = 11;
-					["choices"] = "";
-				};
-				["Time (s)"] = {
-					["type"] = "int";
-					["name"] = "Time (s)";
-					["value"] = 360;
-					["order"] = 10;
-					["choices"] = "";
-				};
-				["y"] = {
-					["type"] = "float";
-					["name"] = "y";
-					["value"] = -41.74;
-					["order"] = 3;
-					["choices"] = "";
-				};
-				["h"] = {
-					["type"] = "float";
-					["name"] = "h";
-					["value"] = -2.452;
-					["order"] = 5;
-					["choices"] = "";
-				};
-				["Name"] = {
-					["type"] = "string";
-					["name"] = "Name";
-					["value"] = "Fishing - Sapsa";
-					["order"] = 1;
-					["choices"] = "";
-				};
-				["green"] = {
-					["type"] = "int";
-					["name"] = "green";
-					["value"] = 0;
-					["order"] = 7;
-					["choices"] = "";
-				};
-				["Max Level"] = {
-					["type"] = "int";
-					["name"] = "Max Level";
-					["value"] = 50;
-					["order"] = 12;
-					["choices"] = "";
-				};
-				["Use Mooch"] = {
-					["type"] = "checkbox";
-					["name"] = "Use Mooch";
-					["value"] = "1";
-					["order"] = 14;
-					["choices"] = "";
-				};
-				["x"] = {
-					["type"] = "float";
-					["name"] = "x";
-					["value"] = -230.54;
-					["order"] = 2;
-					["choices"] = "";
-				};
-				["Bait Name"] = {
-					["type"] = "string";
-					["name"] = "Bait Name";
-					["value"] = "Glowworm";
-					["order"] = 13;
-					["choices"] = "";
-				};
-			};
-		};
-		["Fishing - Sapsa Docks"] = {
-			["order"] = 1;
-			["fields"] = {
-				["type"] = {
-					["type"] = "string";
-					["name"] = "type";
-					["value"] = "Fishing Marker";
 					["choices"] = "";
 					["order"] = 9;
 				};
@@ -134,14 +24,14 @@ local obj1 = {
 				["Bait Name"] = {
 					["type"] = "string";
 					["name"] = "Bait Name";
-					["value"] = "Glowworm";
+					["value"] = "Yumizuno";
 					["choices"] = "";
 					["order"] = 13;
 				};
 				["h"] = {
 					["type"] = "float";
 					["name"] = "h";
-					["value"] = -3.1343796253204;
+					["value"] = -1.7343378067017;
 					["choices"] = "";
 					["order"] = 5;
 				};
@@ -169,28 +59,28 @@ local obj1 = {
 				["y"] = {
 					["type"] = "float";
 					["name"] = "y";
-					["value"] = -35.202499389648;
+					["value"] = 14.591510772705;
 					["choices"] = "";
 					["order"] = 3;
 				};
 				["x"] = {
 					["type"] = "float";
 					["name"] = "x";
-					["value"] = -361.50057983398;
+					["value"] = 437.13488769531;
 					["choices"] = "";
 					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
 					["name"] = "Name";
-					["value"] = "Fishing - Sapsa Docks";
+					["value"] = "Navigator451";
 					["choices"] = "";
 					["order"] = 1;
 				};
 				["z"] = {
 					["type"] = "float";
 					["name"] = "z";
-					["value"] = -438.34524536133;
+					["value"] = 442.8307800293;
 					["choices"] = "";
 					["order"] = 4;
 				};
@@ -211,7 +101,117 @@ local obj1 = {
 				["Use Stealth"] = {
 					["type"] = "checkbox";
 					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+			};
+		};
+		["Navigator45"] = {
+			["order"] = 1;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Fishing Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Bait Name"] = {
+					["type"] = "string";
+					["name"] = "Bait Name";
+					["value"] = "Yumizuno";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.34958481788635;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 45;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1620;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 11.384521484375;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 451.38967895508;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Navigator45";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 456.17428588867;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Use Mooch"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Mooch";
 					["value"] = "1";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
 					["choices"] = "";
 					["order"] = 15;
 				};
@@ -1296,6 +1296,115 @@ local obj1 = {
 					["value"] = 0;
 					["choices"] = "";
 					["order"] = 6;
+				};
+			};
+		};
+		["Shoalspine_Sahagin"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Grind Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["h"] = {
+					["choices"] = "";
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 300;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -42.284423828125;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -190.27861022949;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Shoalspine_Sahagin";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = -228.72108459473;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["value"] = 2523;
+					["order"] = 13;
+					["choices"] = "";
 				};
 			};
 		};
