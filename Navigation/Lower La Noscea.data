@@ -3,29 +3,22 @@ local multiRefObjects = {
 
 } -- multiRefObjects
 local obj1 = {
-	["isa"] = nil --[[functions with upvalue not supported]];
 	["MapID"] = 135;
-	["superClass"] = nil --[[functions with upvalue not supported]];
+	["Name"] = "Lower La Noscea";
+	["LastPlayerPosition"] = {
+		["y"] = 60.353355407715;
+		["x"] = 93.402252197266;
+		["h"] = -0.96752333641052;
+		["z"] = 946.20220947266;
+	};
 	["AllowedMapIDs"] = {
 		[135] = 135;
 	};
-	["class"] = nil --[[functions with upvalue not supported]];
-	["Create"] = nil --[[functions with upvalue not supported]];
-	["Obstacles"] = {
+	["AvoidanceAreas"] = {
 	};
-	["Name"] = "Lower La Noscea";
 	["MarkerList"] = {
 	};
-	["LastPlayerPosition"] = {
-		["y"] = 0;
-		["x"] = 0;
-		["z"] = 0;
-		["hx"] = 0;
-		["hy"] = 0;
-		["hz"] = 0;
-		["h"] = 0;
-	};
-	["AvoidanceAreas"] = {
+	["Obstacles"] = {
 	};
 }
 return obj1

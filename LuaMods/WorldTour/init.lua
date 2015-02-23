@@ -193,7 +193,6 @@ function GetClosestUnattuned()
 		local ppos = shallowcopy(Player.pos)
 		
 		for id,aetheryte in pairs(onMapAetherytes) do
-		d(id)
 			local dist = Distance3D(ppos.x,ppos.y,ppos.z,aetheryte.x,aetheryte.y,aetheryte.z)
 			if (not closest or dist < closestDistance) then
 				closest = aetheryte

@@ -843,10 +843,7 @@ function SkillMgr.ReadFile(strFile)
 		SkillMgr.SkillProfile = profile.skills
 	end
 	SkillMgr.ResetSkillTracking()
-<<<<<<< HEAD
 	SkillMgr.CheckProfileValidity()
-=======
->>>>>>> 76accd11a32dd93e94c69ca1b03c746890513c42
 end
 
 --All writes to the profiles should come through this function.
