@@ -1,0 +1,102 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Encounters"] = {
+		 -- Kill to immune
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 19;
+					["x"] = -10.906241416931;
+					["h"] = 1.264512181282;
+					["z"] = -11.455141067505;
+				};
+			};
+			["bossIDs"] = "1073812573";
+		};
+                -- drop for adds
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["prioritize"] = true;
+			--["failTime"] = 3000; --adjust
+			["doKill"] = false;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 16;
+					["x"] = -10.906241416931;
+					["h"] = 1.264512181282;
+					["z"] = -11.455141067505;
+				};
+			};
+			["bossIDs"] = "2752";
+		};
+                -- kill adds
+                [3] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+                        ["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 19;
+					["x"] = -10.906241416931;
+					["h"] = 1.264512181282;
+					["z"] = -11.455141067505;
+				};
+			};
+			["bossIDs"] = "720;721;722;723;724;718;719";
+		};
+                
+                -- kill king
+		[4] = {
+			["doWait"] = true;
+			["radius"] = 50;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["prioritize"] = false;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 19;
+					["x"] = -10.906241416931;
+					["h"] = 1.264512181282;
+					["z"] = -11.455141067505;
+				};
+			};
+			["bossIDs"] = "2752";
+		};
+                
+                -- loot
+		[5] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["waitTime"] = 5000;		
+			["startPos"] = {
+				["General"] = {
+					["y"] = 0;
+					["x"] = -0.63876241445541;
+					["h"] = 2.9911925792694;
+					["z"] = -12.444882392883;
+				};
+			};
+			["lootid"] = 299;
+		};
+	};
+	["MapID"] = 364;
+	["EncounterIndex"] = 0;
+}
+return obj1
