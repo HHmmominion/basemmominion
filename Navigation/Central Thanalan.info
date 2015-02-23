@@ -19,23 +19,23 @@ local obj1 = {
 					["name"] = "blue";
 					["order"] = 8;
 				};
-				["red"] = {
-					["value"] = 0;
-					["type"] = "int";
-					["name"] = "red";
-					["order"] = 6;
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
 				};
-				["green"] = {
-					["value"] = 0;
+				["Max Level"] = {
+					["value"] = 12;
 					["type"] = "int";
-					["name"] = "green";
-					["order"] = 7;
+					["name"] = "Max Level";
+					["order"] = 12;
 				};
-				["z"] = {
-					["value"] = -348.55996704102;
+				["h"] = {
+					["value"] = -2.5173041820526;
 					["type"] = "float";
-					["name"] = "z";
-					["order"] = 4;
+					["name"] = "h";
+					["order"] = 5;
 				};
 				["Min Level"] = {
 					["value"] = 7;
@@ -71,8 +71,8 @@ local obj1 = {
 					["type"] = "button";
 					["name"] = "Whitelist Target";
 					["value"] = "";
-					["choices"] = "";
 					["order"] = 15;
+					["choices"] = "";
 				};
 				["x"] = {
 					["value"] = -32.880931854248;
@@ -80,23 +80,23 @@ local obj1 = {
 					["name"] = "x";
 					["order"] = 2;
 				};
-				["h"] = {
-					["value"] = -2.5173041820526;
+				["z"] = {
+					["value"] = -348.55996704102;
 					["type"] = "float";
-					["name"] = "h";
-					["order"] = 5;
+					["name"] = "z";
+					["order"] = 4;
 				};
-				["Max Level"] = {
-					["value"] = 12;
+				["green"] = {
+					["value"] = 0;
 					["type"] = "int";
-					["name"] = "Max Level";
-					["order"] = 12;
+					["name"] = "green";
+					["order"] = 7;
 				};
-				["ContentID="] = {
-					["value"] = "";
-					["type"] = "string";
-					["name"] = "ContentID=";
-					["order"] = 13;
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
 				};
 			};
 		};

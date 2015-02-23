@@ -1,0 +1,238 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["MapID"] = 387;
+    ["EncounterIndex"] = 0;
+    ["Independent"] = true;
+	["Encounters"] = {
+        -- Drainage Pump
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 32.951564788818;
+                    ["x"] = 181.78750610352;
+                    ["z"] = -25.176950454712;
+                    ["h"] = -1.589693069458;
+				};
+			};
+			["interactid"] = 2004406;
+		};
+        -- Kill Boss 1
+        [2] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 28.951564788818;
+                    ["x"] = 165.61486816406;
+                    ["z"] = -79.42993927002;
+                    ["h"] = -2.9835286140442;
+				};
+			};
+			["bossIDs"] = "3014";
+		};
+        -- Trigger Boss 2 Mob 1
+        [3] = {
+            ["doWait"] = true;
+            ["radius"] = 25;
+            ["taskFunction"] = "ffxiv_duty_kill_task.Create";
+            ["startPos"] = {
+				["General"] = {
+					["y"] = 16.01061630249;
+                    ["x"] = 95.435806274414;
+                    ["z"] = -69.509559631348;
+                    ["h"] = -1.7449834346771;
+				};
+			};
+        };
+        -- Kill Boss 2 Mob 1
+        [4] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 28.01061630249;
+                    ["x"] = 105.28447723389;
+                    ["z"] = -67.776504516602;
+                    ["h"] = -1.7449834346771;
+				};
+			};
+			["bossIDs"] = "3009";
+		};
+        -- Kill Boss 2 Mob 2
+        [5] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 24.054487228394;
+                    ["x"] = -5.682957649231;
+                    ["z"] = -14.997900009155;
+                    ["h"] = -1.8762190341949;
+				};
+			};
+			["bossIDs"] = "3011;3012";
+		};
+        -- Kill Boss 2 Mob 3
+        [6] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 20.054487228394;
+                    ["x"] = -63.315139770508;
+                    ["z"] = 10.920670509338;
+                    ["h"] = -1.6660794019699;
+				};
+			};
+			["bossIDs"] = "3011;3012";
+		};
+        -- Door to the Dead Man's Drink
+		[7] = {
+			["doWait"] = true;
+			["radius"] = 15;
+			["taskFunction"] = "ffxiv_task_interact.Create";
+			["waitTime"] = 3000;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 19.345054626465;
+                    ["x"] = -96.613327026367;
+                    ["z"] = 88.62801361084;
+                    ["h"] = 0.044283866882324;
+				};
+			};
+			["interactid"] = 2004424;
+		};
+        -- Kill Boss 2
+        [8] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 2000;
+			["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 29.5;
+                    ["x"] = -99.409088134766;
+                    ["z"] = 128.11697387695;
+                    ["h"] = -2.9435260295868;
+				};
+			};
+			["bossIDs"] = "3018;3015;3016;3017;3019";
+		};
+        -- Kill Boss 3 Mob 1
+        [9] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+            ["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = -0.5;
+                    ["x"] = -181.14112854004;
+                    ["z"] = 241.87359619141;
+                    ["h"] = -0.57153630256653;
+				};
+			};
+			["bossIDs"] = "3001;3000";
+		};
+        -- Kill Boss 3 Mob 2
+        [10] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+            ["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+                    ["y"] = 15.5;
+                    ["x"] = -253.41345214844;
+                    ["z"] = 260.82650756836;
+                    ["h"] = -1.78209400177;
+				};
+			};
+			["bossIDs"] = "3001;3000;3002;3003;3005;3013;3004";
+		};
+        -- Kill Boss 3 and Mob
+        [11] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+            ["prioritize"] = true;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 13.5;
+                    ["x"] = -297.419921875;
+                    ["z"] = 257.97189331055;
+                    ["h"] = -0.052538841962814;
+				};
+			};
+			["bossIDs"] = "3001;3000;3002;3003;3005;3013;3004";
+		};
+        -- Trigger Boss 4
+        [12] = {
+            ["doWait"] = true;
+            ["radius"] = 25;
+            ["taskFunction"] = "ffxiv_duty_kill_task.Create";
+            ["startPos"] = {
+				["General"] = {
+					["y"] = 5.5766868591309;
+                    ["x"] = -299.55258178711;
+                    ["z"] = 278.83819580078;
+                    ["h"] = -0.29351186752319;
+				};
+			};
+        };
+        -- Kill Boss 4
+        [13] = {
+			["doWait"] = true;
+			["radius"] = 30;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 3000;
+			["failTime"] = 3000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 19.576686859131;
+                    ["x"] = -346.48818969727;
+                    ["z"] = 291.03842163086;
+                    ["h"] = -0.00048828125;
+				};
+			};
+			["bossIDs"] = "2904";
+		};
+    };
+}
+return obj1

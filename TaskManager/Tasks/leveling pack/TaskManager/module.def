@@ -1,8 +1,0 @@
-[Module]
-Name=TaskManager
-Version=1.0
-Files=TaskManager.lua
-dependencies=minionlib,FFXIVMINION
-enabled=1
-
-

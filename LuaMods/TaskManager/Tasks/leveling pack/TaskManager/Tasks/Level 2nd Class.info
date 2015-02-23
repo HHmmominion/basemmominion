@@ -1,0 +1,158 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Grind 1 - 5";
+			["maxLevel"] = 6;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["x"] = 312.47650146484;
+				["y"] = 65.304191589355;
+				["z"] = 176.62812805176;
+			};
+ 		};	
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Grind 6 - 10";
+			["maxLevel"] = 11;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["x"] = -103.02027893066;
+				["y"] = 52.37914276123;
+				["z"] = 280.66647338867;
+			};
+ 		};	 
+		[2] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Grind 11 - 15";
+			["maxLevel"] = 15;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["x"] = -196.08692932129;
+				["y"] = 14.513845443726;
+				["z"] = -305.97717285156;
+			};
+ 		};	 
+		[3] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]15-20Satasha";
+			["maxLevel"] = 20;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[4] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]20-30Halatali";
+			["maxLevel"] = 24;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[5] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]24-35_TotoRak";
+			["maxLevel"] = 28;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[6] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]28-32HaukkeManor";
+			["maxLevel"] = 35;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[7] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]35-44SunkenTemple";
+			["maxLevel"] = 38;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[8] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]38-44_Cutter's_Cry";
+			["maxLevel"] = 42;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[9] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]42-47StoneVigil";
+			["maxLevel"] = 44;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[10] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]44-47_Dzemael Darkhold";
+			["maxLevel"] = 47;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+		[11] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Leveling]47-50_AurumVale";
+			["maxLevel"] = 50;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+
+
+	};
+}
+return obj1
+

@@ -1,0 +1,218 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Wild_Hog";
+			["contentId"] = 15;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 153;
+				["mesh"] = "South Shroud";
+				["x"] = 455.54489135742;
+				["y"] = 0.57011747360229;
+				["z"] = 171.244140625;
+			};			
+		};
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Hexing_Harrier";
+			["contentId"] = 652;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = -222.68405078125;
+				["y"] = 2.6103512954712;
+				["z"] = -262.93641662598;
+			};			
+		};
+		[5] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Gigas_Bonze";
+			["contentId"] = 646;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = 402.28707885742;
+				["y"] = -16.316606521606;
+				["z"] = -370.45843505859;
+			};			
+		};
+		[8] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Zahar'ak_Fortuneteller";
+			["contentId"] = 2303;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["x"] = 389.40823364258;
+				["y"] = 15.527135848999;
+				["z"] = -71.646453857422;
+			};			
+		};
+		[4] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Tempered_Orator";
+			["contentId"] = 339;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["x"] = -35.180735678672791;
+				["y"] = 5.39329662322998;
+				["z"] = -70.936231689453;
+			};			
+		};
+		
+		[2] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Sylpheed_Screech";
+			["contentId"] = 67;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["x"] = 535.69860839844;
+				["y"] = -23.212326049805;
+				["z"] = -355.49166870117;
+			};			
+		};
+		[9] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_2nd_Cohort_Laquearius";
+			["contentId"] = 1822;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 137;
+				["mesh"] = "Eastern La Noscea";
+				["x"] = 260.31817626953;
+				["y"] = 75.78279876709;
+				["z"] = -16.793159484863;
+			};			
+		};
+		[3] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Giant_Lugger";
+			["contentId"] = 786;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["x"] = -367.73513793945;
+				["y"] = 310.30014038086;
+				["z"] = 210.38633728027;
+			};			
+		};
+		[6] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_U'Ghamaro_Roundsman";
+			["contentId"] = 1832;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 180;
+				["mesh"] = "Outer La Noscea";
+				["x"] = 111.50549316406;
+				["y"] = 25.558958053589;
+				["z"] = -635.38836669922;
+			};			
+		};
+		[7] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Animus_Shelfclaw_reavers";
+			["contentId"] = 345;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["x"] = -407.09384155273;
+				["y"] = -30.539434432983;
+				["z"] = -234.09745788574;
+			};			
+		};
+		[10] = {
+			["mode"] = "Grind";
+			["fateId"] = 521;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = 505.06506347656;
+				["y"] = -2.2783470153809;
+				["z"] = -778.28253173828;
+			};			
+		};
+		[11] = {
+			["mode"] = "Grind";
+			["fateId"] = 620;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["x"] = 135.59172058105;
+				["y"] = -25.259216308594;
+				["z"] = -367.53558349609;
+			};			
+		};
+		[12] = {
+			["mode"] = "Grind";
+			["fateId"] = 430;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["x"] = 136.52897644043;
+				["y"] = 12.997974395752;
+				["z"] = 271.33399963379;
+			};			
+		};
+		[13] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "SunkenTemple_Book";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["x"] = -375.13424682617;
+				["y"] = -39.490467071533;
+				["z"] = -222.12408447266;
+			};			
+		};
+		[14] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "HaukkeManor_Hard_Book";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["x"] = -375.13424682617;
+				["y"] = -39.490467071533;
+				["z"] = -222.12408447266;
+			};			
+		};
+		[15] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "Halatali_Hard_Complete";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["x"] = -375.13424682617;
+				["y"] = -39.490467071533;
+				["z"] = -222.12408447266;
+			};			
+		};
+ 	};
+}
+return obj1

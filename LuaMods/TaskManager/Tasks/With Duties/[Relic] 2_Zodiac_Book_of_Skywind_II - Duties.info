@@ -1,0 +1,219 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Gigas_Shramana";
+			["contentId"] = 647;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["y"] = -5.8564291000366;
+				["x"] = 380.83367919922; 
+				["z"] = -460.48379516602;
+			};			
+		};
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "5th_Cohort_Signifer";
+			["contentId"] = 1813;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["y"] = -4.8564291000366;
+				["x"] = -511.83367919922; 
+				["z"] = -441.48379516602;
+			};			
+		};
+ 		[2] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Dreamtoad";
+			["contentId"] = 164;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["x"] = 267.38732910156;
+				["y"] = -10.523370742798;
+				["z"] = -100.40513000488;
+			};			
+		};
+		[3] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Watchwolf";
+			["contentId"] = 174;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["y"] = -11.66551208496;
+				["x"] = -39.41186523438; 
+				["z"] = -51.68295288086;
+			};			
+		};
+		[4] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Analj'aa_Archer";
+			["contentId"] = 249;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["y"] = 15.64693450928;
+				["x"] = -131.430469512939; 
+				["z"] = 102.54364013672;
+			};			
+		};
+		[5] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "4th_cohort_Signifer";
+			["contentId"] = 1819;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 140;
+				["mesh"] = "Western Thanalan";
+				["y"] = 51.284423828125;
+				["x"] = -438.27861022949; 
+				["z"] = -736.72108459473;
+			};			
+		};
+		[6] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Battle_Drake";
+			["contentId"] = 1841;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["y"] = 15.64693450928;
+				["x"] = 457.430469512939; 
+				["z"] = -135.54364013672;
+			};			
+		};
+		[7] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Sapsa_Shelfteeth";
+			["contentId"] = 1830;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["y"] = -40.284423828125;
+				["x"] = -348.27861022949; 
+				["z"] = -329.72108459473;
+			};			
+		};
+		[8] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Fogcaller";
+			["contentId"] = 1845;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 302.08471679688;
+				["x"] = 580.64645385742;
+				["z"] = -87.22360229492;
+			};			
+		};
+		[9] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "2nd_Cohort_Secutores";
+			["contentId"] = 2520;
+			["contentCount"] = 10;
+			["location"] = 	{ 
+				["map"] = 180;
+				["mesh"] = "Outer La Noscea";
+				["y"] = 24.833885192871;
+				["x"] = 220.126068115234; 
+				["z"] = -753.0712890625;
+			};			
+		};
+		[10] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["fateId"] = 552;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["y"] = 5.64693450928;
+				["x"] = -163.430469512939; 
+				["z"] = -158.54364013672;
+			};			
+		};
+		[11] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["fateId"] = 486;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 248.08471679688;
+				["x"] = -500.64645385742;
+				["z"] = 327.22360229492;
+			};			
+		};
+ 		[12] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["fateId"] = 628;
+			["location"] = 	{ 
+				["map"] = 153;
+				["mesh"] = "South Shroud";
+				["x"] = 440.38732910156;
+				["y"] = 3.523370742798;
+				["z"] = 147.40513000488;
+			};			
+		};
+		[13] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "HaukkeManor_Book";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["x"] = -375.13424682617;
+				["y"] = -39.490467071533;
+				["z"] = -222.12408447266;
+			};			
+		};
+		[14] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "Copperbell hard";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["x"] = -375.13424682617;
+				["y"] = -39.490467071533;
+				["z"] = -222.12408447266;
+			};			
+		};
+		[15] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "Brayflox_Hard";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 154;
+				["mesh"] = "North Shroud";
+				["x"] = -375.13424682617;
+				["y"] = -39.490467071533;
+				["z"] = -222.12408447266;
+			};			
+		};
+ 	};
+}
+return obj1

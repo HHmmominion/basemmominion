@@ -1,0 +1,118 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Amalj'aa_Hal";
+			["contentId"] = 2155;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["y"] = 12.564693450928;
+				["x"] = 218.430469512939; 
+				["z"] = 642.54364013672;
+			};			
+		};
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Kobold Missionary";
+			["contentId"] = 373;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 137;
+				["mesh"] = "Eastern La Noscea";
+				["y"] = 36.8564291000366;
+				["x"] = 347.83367919922; 
+				["z"] = 212.48379516602;
+			};			
+		};
+ 		[2] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Kobold Sidesman";
+			["contentId"] = 376;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 139;
+				["mesh"] = "Upper La Noscea";
+				["y"] = 26.8564291000366;
+				["x"] = 271.83367919922; 
+				["z"] = -110.48379516602;
+			};			
+		};
+		[3] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Kobold Quarryman";
+			["contentId"] = 562;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 180;
+				["mesh"] = "Outer La Noscea";
+				["y"] = 62.8564291000366;
+				["x"] = 205.83367919922; 
+				["z"] = -270.48379516602;
+			};			
+		};
+		[4] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Sylvan Screech";
+			["contentId"] = 63;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["y"] = 18.284423828125;
+				["x"] = -8.27861022949; 
+				["z"] = -0.2108459473;
+			};			
+		};
+		[5] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Shelfspine Sahagin";
+			["contentId"] = 389;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["x"] = -98.38732910156;
+				["y"] = -26.523370742798;
+				["z"] = 14.40513000488;
+			};			
+		};
+		[6] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Amalj'aa Archer";
+			["contentId"] = 249;
+			["contentCount"] = 3;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["y"] = 4.833885192871;
+				["x"] = -19.126068115233; 
+				["z"] = 38.0712890625;
+			};			
+		};
+		[7] = {
+			["mode"] = "Duty";
+			["dutyProfile"] = "[Hunt]Cutters_Cry";
+			["dutyCount"] = 1;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 309.71090698242;
+				["x"] = 52.032897949219; 
+				["z"] = 126.85176849365;
+			};			
+		};
+ 	};
+}
+return obj1
