@@ -1,0 +1,173 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["evacPoint"] = {
+		["y"] = 302;
+		["x"] = 221.7529296875;
+		["z"] = -200.93934631348;
+	};
+	["Mining Marker"] = {
+		["Mining 41 - 50"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["order"] = 12;
+					["choices"] = "";
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1215;
+					["order"] = 10;
+					["choices"] = "";
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["order"] = 22;
+					["choices"] = "";
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = -2.847;
+					["order"] = 5;
+					["choices"] = "";
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "Wind Shard";
+					["order"] = 14;
+					["choices"] = "";
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 16;
+					["choices"] = "";
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "Wind Crystal";
+					["order"] = 13;
+					["choices"] = "";
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["order"] = 20;
+					["choices"] = "";
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["order"] = 6;
+					["choices"] = "";
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Mining Marker";
+					["order"] = 9;
+					["choices"] = "";
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["order"] = 8;
+					["choices"] = "";
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["order"] = 19;
+					["choices"] = "Any,Peisteskin Only,None";
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 46;
+					["order"] = 11;
+					["choices"] = "";
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["order"] = 7;
+					["choices"] = "";
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -2.12;
+					["order"] = 3;
+					["choices"] = "";
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = -155.91;
+					["order"] = 2;
+					["choices"] = "";
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Mining 41 - 50";
+					["order"] = 1;
+					["choices"] = "";
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 174.54;
+					["order"] = 4;
+					["choices"] = "";
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["order"] = 21;
+					["choices"] = "None,1 Black Mage Levi,1 Paladin Levi,1 Warrior Levi,1 White Mage Levi,Arcanist,Archer,Bard,Black_Mage,BLM AOE,BLM_50,Botanist,Conjurer,Culinarian,Dragoon-Ace-PVP,Dragoon,Gather,Gladiator,Lancer,Marauder,Miner,Monk-Ace-PVP,Monk,Monk_50,Ninja,Ninja.S.v06,Paladin,Pugilist,Rogue,Rogue.S.v0.4,SCH.S.v1.2,Scholar,Summoner,Thaumaturge,UltimateSummoner,Warrior,White_Mage,WHM C&H 1.7,WHM Ramuh Rest";
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["order"] = 18;
+					["choices"] = "";
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["order"] = 17;
+					["choices"] = "";
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+			};
+		};
+	};
+}
+return obj1

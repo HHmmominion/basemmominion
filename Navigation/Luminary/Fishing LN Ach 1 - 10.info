@@ -1,0 +1,6 @@
+version=1
+MapID=129
+evacPoint=nil,nil,nil
+fishingSpot=Fishing 2:-191.48,1.25,218.33,-0.031:1:50:1200:Lugworm
+fishingSpot=Fishing 3:-194.45,2.25,239.25,-2.247:1:50:1200:Lugworm
+fishingSpot=Fishing 1:-185.64,2.25,199.37,-1.596:1:50:1200:Lugworm

@@ -1,0 +1,8 @@
+version=1
+MapID=139
+evacPoint=nil,nil,nil
+miningSpot=Mining 30:-426.3,-11.73,222.39,-1.299:26:30:1707:None,None
+miningSpot=Mining 25:-433.15,-2.1,123.84,-2.917:21:25:1641:None,None
+fishingSpot=Fishing - Fool Falls:-610.13,-2.75,-24.35,-0.79:15:25:1200:Glowworm
+fishingSpot=Fishing - Oakwood:-412.13,-2.27,153.8,2.235:15:25:1200:Glowworm
+botanySpot=Botany 25:-343.67,-1.95,139.59,-0.633:21:25:1540:None,None

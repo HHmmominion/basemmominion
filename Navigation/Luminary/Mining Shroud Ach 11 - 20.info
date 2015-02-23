@@ -1,0 +1,176 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Mining Marker"] = {
+		["Mining Marker89"] = {
+			["isa"] = nil --[[thread]]
+;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 300;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["Valid Slots"] = {
+					["type"] = "string";
+					["name"] = "Valid Slots";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 0.6785204410553;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 17;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "Raw Sphene";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 21;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Mining Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 20;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = -6.792866230011;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 383.94827270508;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Mining Marker89";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 81.844863891602;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 19;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "None,1 Black Mage Levi,1 Paladin Levi,1 Warrior Levi,1 White Mage Levi,Arcanist,Archer,Bard,Black_Mage,BLM AOE,BLM_50,Botanist,Conjurer,Culinarian,Dragoon-Ace-PVP,Dragoon,Gather,Gladiator,Lancer,Marauder,Miner,Monk-Ace-PVP,Monk,Monk_50,Ninja,Ninja.S.v06,Paladin,Pugilist,Rogue,Rogue.S.v0.4,SCH.S.v1.2,Scholar,Summoner,Thaumaturge,UltimateSummoner,Warrior,White_Mage,WHM C&H 1.7,WHM Ramuh Rest";
+					["order"] = 22;
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 16;
+				};
+			};
+			["superClass"] = nil --[[thread]]
+;
+			["order"] = 1;
+			["class"] = nil --[[thread]]
+;
+			["Create"] = nil --[[thread]]
+;
+		};
+	};
+}
+return obj1

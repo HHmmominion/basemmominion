@@ -1,0 +1,167 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["evacPoint"] = {
+		["y"] = 14.095857620239;
+		["x"] = 157.06959533691;
+		["h"] = -3.0105311870575;
+		["z"] = 681.78094482422;
+	};
+	["Mining Marker"] = {
+		["Mining LN Ach 41 - 50"] = {
+			["order"] = 1;
+			["fields"] = {
+				["Max Level"] = {
+					["type"] = "int";
+					["name"] = "Max Level";
+					["value"] = 50;
+					["choices"] = "";
+					["order"] = 12;
+				};
+				["Time (s)"] = {
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["value"] = 1215;
+					["choices"] = "";
+					["order"] = 10;
+				};
+				["h"] = {
+					["type"] = "float";
+					["name"] = "h";
+					["value"] = 3.043;
+					["choices"] = "";
+					["order"] = 5;
+				};
+				["Item Priority 2"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 2";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 14;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 16;
+				};
+				["Item Priority 1"] = {
+					["type"] = "string";
+					["name"] = "Item Priority 1";
+					["value"] = "None";
+					["choices"] = "";
+					["order"] = 13;
+				};
+				["Gather Gardening"] = {
+					["type"] = "checkbox";
+					["name"] = "Gather Gardening";
+					["value"] = "1";
+					["choices"] = "";
+					["order"] = 20;
+				};
+				["red"] = {
+					["type"] = "int";
+					["name"] = "red";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 6;
+				};
+				["type"] = {
+					["type"] = "string";
+					["name"] = "type";
+					["value"] = "Mining Marker";
+					["choices"] = "";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["type"] = "int";
+					["name"] = "blue";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 8;
+				};
+				["Gather Maps"] = {
+					["type"] = "combobox";
+					["name"] = "Gather Maps";
+					["value"] = "Any";
+					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 19;
+				};
+				["Min Level"] = {
+					["type"] = "int";
+					["name"] = "Min Level";
+					["value"] = 1;
+					["choices"] = "";
+					["order"] = 11;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 681;
+					["choices"] = "";
+					["order"] = 4;
+				};
+				["y"] = {
+					["type"] = "float";
+					["name"] = "y";
+					["value"] = 35.44;
+					["choices"] = "";
+					["order"] = 3;
+				};
+				["x"] = {
+					["type"] = "float";
+					["name"] = "x";
+					["value"] = 22.68;
+					["choices"] = "";
+					["order"] = 2;
+				};
+				["Name"] = {
+					["type"] = "string";
+					["name"] = "Name";
+					["value"] = "Mining LN Ach 41 - 50";
+					["choices"] = "";
+					["order"] = 1;
+				};
+				["green"] = {
+					["type"] = "int";
+					["name"] = "green";
+					["value"] = 0;
+					["choices"] = "";
+					["order"] = 7;
+				};
+				["NOT ContentID="] = {
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 17;
+				};
+				["Use Stealth"] = {
+					["type"] = "checkbox";
+					["name"] = "Use Stealth";
+					["value"] = "0";
+					["choices"] = "";
+					["order"] = 18;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "None";
+					["choices"] = "None,Arcanist,Archer,Bard,BLM AOE,Conjurer,Culinarian,Dragoon-Ace-PVP,Dragoon,Gladiator,Lancer,Marauder,Miner,Monk-Ace-PVP,Monk,Paladin,Pugilist,Scholar,Summoner,Thaumaturge,UltimateSummoner,WHM C&H 1.7";
+					["order"] = 21;
+				};
+				["ContentID="] = {
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["value"] = "";
+					["choices"] = "";
+					["order"] = 15;
+				};
+			};
+		};
+	};
+}
+return obj1
