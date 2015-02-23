@@ -1,0 +1,8 @@
+[Module]
+Name=dutyswitch
+Version=1.0
+Files=dutyswitch.lua
+dependencies=minionlib,FFXIVMINION
+enabled=1
+
+
