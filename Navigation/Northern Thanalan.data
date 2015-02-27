@@ -3,14 +3,13 @@ local multiRefObjects = {
 
 } -- multiRefObjects
 local obj1 = {
-	["isa"] = nil --[[functions with upvalue not supported]];
 	["MapID"] = 147;
-	["superClass"] = nil --[[functions with upvalue not supported]];
 	["AllowedMapIDs"] = {
 		[147] = 147;
+		[410] = 410;
 	};
-	["class"] = nil --[[functions with upvalue not supported]];
-	["Create"] = nil --[[functions with upvalue not supported]];
+	["AvoidanceAreas"] = {
+	};
 	["Obstacles"] = {
 	};
 	["Name"] = "Northern Thanalan";
@@ -24,8 +23,6 @@ local obj1 = {
 		["hy"] = 0;
 		["hz"] = 0;
 		["h"] = 0;
-	};
-	["AvoidanceAreas"] = {
 	};
 }
 return obj1

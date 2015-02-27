@@ -1,0 +1,43 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["Encounters"] = {
+		[1] = {
+			["doWait"] = true;
+			["radius"] = 30;
+			["taskFunction"] = "ffxiv_duty_kill_task.Create";
+			["waitTime"] = 5000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 25;
+					["x"] = 0.0098585784435272;
+					["h"] = 3.1332204341888;
+					["z"] = 7.9406185150146;
+				};
+			};
+			["bossIDs"] = "2994";
+		};
+		[2] = {
+			["doWait"] = true;
+			["radius"] = 25;
+			["taskFunction"] = "ffxiv_task_loot.Create";
+			["waitTime"] = 6000;
+			["doKill"] = true;
+			["startPos"] = {
+				["General"] = {
+					["y"] = 0;
+					["x"] = 1.4511544704437;
+					["h"] = -2.7206463813782;
+					["z"] = -11.405220985413;
+				};
+			};
+			["lootid"] = 366;
+		};
+	};
+	["MapID"] = 377;
+	["EncounterIndex"] = 0;
+}
+return obj1

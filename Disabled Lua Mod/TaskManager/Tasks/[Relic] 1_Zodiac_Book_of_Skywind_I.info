@@ -1,0 +1,184 @@
+-- Persistent Data
+local multiRefObjects = {
+} -- multiRefObjects
+local obj1 = {
+	["tasks"] = {
+		[0] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Sylpheed_Snarl";
+			["contentId"] = 69;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 152;
+				["mesh"] = "East Shroud";
+				["x"] = 507.38732910156;
+				["y"] = -19.523370742798;
+				["z"] = -338.40513000488;
+			};			
+		};
+		[1] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Amalj'aa_Thaumaturges";
+			["contentId"] = 258;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 146;
+				["mesh"] = "Southern Thanalan";
+				["y"] = 6.64693450928;
+				["x"] = -158.430469512939; 
+				["z"] = 76.54364013672;
+			};			
+		};
+ 		[2] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "5th_Cohort_Equites";
+			["contentId"] = 1811;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["y"] = 0.8564291000366;
+				["x"] = -565.83367919922; 
+				["z"] = -341.48379516602;
+			};			
+		};
+		[3] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Sapsa_Elbst";
+			["contentId"] = 2527;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["y"] = -40.284423828125;
+				["x"] = -195.27861022949; 
+				["z"] = -228.72108459473;
+			};			
+		};
+		[4] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Hippogryph";
+			["contentId"] = 789;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["x"] = 282.38732910156;
+				["y"] = 28.523370742798;
+				["z"] = -722.40513000488;
+			};			
+		};
+		[5] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Trenchtooth_Sahagin";
+			["contentId"] = 565;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 138;
+				["mesh"] = "Western La Noscea";
+				["y"] = -27.284423828125;
+				["x"] = -86.27861022949; 
+				["z"] = -84.72108459473;
+			};			
+		};
+		[6] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Natalan_Windtalan";
+			["contentId"] = 1842;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 155;
+				["mesh"] = "Coerthas";
+				["y"] = 302.08471679688;
+				["x"] = 570.64645385742;
+				["z"] = -83.22360229492;
+			};			
+		};
+		[7] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Elite_Roundsmen";
+			["contentId"] = 2518;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 180;
+				["mesh"] = "Outer La Noscea";
+				["y"] = 24.833885192871;
+				["x"] = 181.126068115234; 
+				["z"] = -641.0712890625;
+			};			
+		};
+		[8] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "Ahrimans";
+			["contentId"] = 242;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 147;
+				["mesh"] = "Northern Thanalan";
+				["y"] = 29.182647705078;
+				["x"] = 157.785873413086; 
+				["z"] = 40.21503448486;
+			};			
+		};
+		[9] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["marker"] = "2nd_Cohort_Secutores";
+			["contentId"] = 1824;
+			["contentCount"] = 11;
+			["location"] = 	{ 
+				["map"] = 137;
+				["mesh"] = "Eastern La Noscea";
+				["y"] = 77.564735412598;
+				["x"] = 257.78677368164; 
+				["z"] = -36.664283752441;
+			};			
+		};
+		[10] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["fateId"] = 317;
+			["location"] = 	{ 
+				["map"] = 139;
+				["mesh"] = "Upper La Noscea";
+				["y"] = 27.571907043457;
+				["x"] = 269.24415588379; 
+				["z"] = -117.61587524414;
+			};			
+		};
+		[11] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["fateId"] = 604;
+			["location"] = 	{ 
+				["map"] = 148;
+				["mesh"] = "Central Shroud";
+				["y"] = 27.66551208496;
+				["x"] = -551.41186523438; 
+				["z"] = -235.68295288086;
+			};			
+		};
+ 		[12] = {
+			["mode"] = "Grind";
+			["markerType"] = "grindMarker";
+			["fateId"] = 517;
+			["location"] = 	{ 
+				["map"] = 156;
+				["mesh"] = "Mor Dhona";
+				["y"] = -15.8564291000366;
+				["x"] = -420.83367919922; 
+				["z"] = -494.48379516602;
+			};			
+		};
+ 	};
+}
+return obj1

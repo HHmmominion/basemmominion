@@ -11,241 +11,145 @@ local obj1 = {
 					["type"] = "int";
 					["name"] = "Max Level";
 					["value"] = 50;
-					["order"] = 12;
 					["choices"] = "";
+					["order"] = 12;
 				};
 				["Minimum GP"] = {
 					["type"] = "string";
 					["name"] = "Minimum GP";
 					["value"] = "300";
-					["order"] = 13;
 					["choices"] = "";
+					["order"] = 13;
 				};
 				["Time (s)"] = {
 					["type"] = "int";
 					["name"] = "Time (s)";
 					["value"] = 1800;
-					["order"] = 10;
 					["choices"] = "";
+					["order"] = 10;
 				};
 				["h"] = {
 					["type"] = "float";
 					["name"] = "h";
 					["value"] = 0.27581948041916;
-					["order"] = 5;
 					["choices"] = "";
+					["order"] = 5;
 				};
 				["Item Priority 2"] = {
 					["type"] = "string";
 					["name"] = "Item Priority 2";
 					["value"] = "";
-					["order"] = 15;
 					["choices"] = "";
+					["order"] = 15;
 				};
 				["Item Priority 1"] = {
 					["type"] = "string";
 					["name"] = "Item Priority 1";
 					["value"] = "3";
-					["order"] = 14;
 					["choices"] = "";
+					["order"] = 14;
 				};
 				["Gather Gardening"] = {
 					["type"] = "checkbox";
 					["name"] = "Gather Gardening";
 					["value"] = "1";
-					["order"] = 18;
 					["choices"] = "";
+					["order"] = 18;
 				};
 				["red"] = {
 					["type"] = "int";
 					["name"] = "red";
 					["value"] = 0;
-					["order"] = 6;
 					["choices"] = "";
+					["order"] = 6;
 				};
 				["type"] = {
 					["type"] = "string";
 					["name"] = "type";
 					["value"] = "Unspoiled Marker";
-					["order"] = 9;
 					["choices"] = "";
+					["order"] = 9;
 				};
 				["blue"] = {
 					["type"] = "int";
 					["name"] = "blue";
 					["value"] = 0;
-					["order"] = 8;
 					["choices"] = "";
+					["order"] = 8;
 				};
 				["Gather Maps"] = {
 					["type"] = "combobox";
 					["name"] = "Gather Maps";
 					["value"] = "None";
-					["order"] = 17;
 					["choices"] = "Any,Peisteskin Only,None";
+					["order"] = 17;
 				};
 				["Min Level"] = {
 					["type"] = "int";
 					["name"] = "Min Level";
 					["value"] = 50;
-					["order"] = 11;
 					["choices"] = "";
+					["order"] = 11;
 				};
 				["y"] = {
 					["type"] = "float";
 					["name"] = "y";
 					["value"] = 59.501510620117;
-					["order"] = 3;
 					["choices"] = "";
+					["order"] = 3;
 				};
 				["x"] = {
 					["type"] = "float";
 					["name"] = "x";
 					["value"] = 121.09571075439;
-					["order"] = 2;
 					["choices"] = "";
+					["order"] = 2;
 				};
 				["Name"] = {
 					["type"] = "string";
 					["name"] = "Name";
 					["value"] = "La nosc Topsoil";
-					["order"] = 1;
 					["choices"] = "";
+					["order"] = 1;
 				};
 				["green"] = {
 					["type"] = "int";
 					["name"] = "green";
 					["value"] = 0;
+					["choices"] = "";
 					["order"] = 7;
-					["choices"] = "";
-				};
-				["z"] = {
-					["type"] = "float";
-					["name"] = "z";
-					["value"] = 241.66705322266;
-					["order"] = 4;
-					["choices"] = "";
-				};
-				["Skill Profile"] = {
-					["type"] = "combobox";
-					["name"] = "Skill Profile";
-					["value"] = "Miner Topsoil";
-					["order"] = 19;
-					["choices"] = "None,15-30 Buffs Miner,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Gladiator,Lancer,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,Summoner,Thaumaturge";
 				};
 				["Use Stealth"] = {
 					["type"] = "checkbox";
 					["name"] = "Use Stealth";
 					["value"] = "0";
-					["order"] = 16;
 					["choices"] = "";
+					["order"] = 16;
+				};
+				["Skill Profile"] = {
+					["type"] = "combobox";
+					["name"] = "Skill Profile";
+					["value"] = "Miner Topsoil";
+					["choices"] = "None,15-30 Buffs Miner,Arcanist,Archer,Bard,Botanist Seeds,Conjurer,Culinarian,Dragoon,Gladiator,Lancer,Marauder,Miner Topsoil,Miner,Monk,Paladin,Pugilist,Scholar,Summoner,Thaumaturge";
+					["order"] = 19;
+				};
+				["z"] = {
+					["type"] = "float";
+					["name"] = "z";
+					["value"] = 241.66705322266;
+					["choices"] = "";
+					["order"] = 4;
 				};
 			};
 		};
 	};
 	["evacPoint"] = {
-		["y"] = 54.810836791992;
-		["x"] = -14.480898857117;
-		["h"] = -3.1273481845856;
-		["z"] = -289.8740234375;
+		["y"] = 113.09999084473;
+		["x"] = 224.47300720215;
+		["h"] = 2.3616473674774;
+		["z"] = -252.25999450684;
 	};
 	["Grind Marker"] = {
-		["grind12_15"] = {
-			["order"] = 2;
-			["fields"] = {
-				["type"] = {
-					["value"] = "Grind Marker";
-					["type"] = "string";
-					["name"] = "type";
-					["order"] = 9;
-				};
-				["blue"] = {
-					["value"] = 0;
-					["type"] = "int";
-					["name"] = "blue";
-					["order"] = 8;
-				};
-				["ContentID="] = {
-					["value"] = "";
-					["type"] = "string";
-					["name"] = "ContentID=";
-					["order"] = 13;
-				};
-				["x"] = {
-					["value"] = -349.39486694336;
-					["type"] = "float";
-					["name"] = "x";
-					["order"] = 2;
-				};
-				["z"] = {
-					["value"] = -359.0158996582;
-					["type"] = "float";
-					["name"] = "z";
-					["order"] = 4;
-				};
-				["Min Level"] = {
-					["value"] = 12;
-					["type"] = "int";
-					["name"] = "Min Level";
-					["order"] = 11;
-				};
-				["Time (s)"] = {
-					["value"] = 2000;
-					["type"] = "int";
-					["name"] = "Time (s)";
-					["order"] = 10;
-				};
-				["y"] = {
-					["value"] = 19.338037490845;
-					["type"] = "float";
-					["name"] = "y";
-					["order"] = 3;
-				};
-				["NOT ContentID="] = {
-					["value"] = "";
-					["type"] = "string";
-					["name"] = "NOT ContentID=";
-					["order"] = 14;
-				};
-				["Name"] = {
-					["value"] = "grind12_15";
-					["type"] = "string";
-					["name"] = "Name";
-					["order"] = 1;
-				};
-				["Whitelist Target"] = {
-					["type"] = "button";
-					["name"] = "Whitelist Target";
-					["value"] = "";
-					["choices"] = "";
-					["order"] = 15;
-				};
-				["Max Level"] = {
-					["value"] = 15;
-					["type"] = "int";
-					["name"] = "Max Level";
-					["order"] = 12;
-				};
-				["green"] = {
-					["value"] = 0;
-					["type"] = "int";
-					["name"] = "green";
-					["order"] = 7;
-				};
-				["h"] = {
-					["value"] = -2.5372309684753;
-					["type"] = "float";
-					["name"] = "h";
-					["order"] = 5;
-				};
-				["red"] = {
-					["value"] = 0;
-					["type"] = "int";
-					["name"] = "red";
-					["order"] = 6;
-				};
-			};
-		};
 		["grind8_11"] = {
 			["order"] = 1;
 			["fields"] = {
@@ -261,11 +165,11 @@ local obj1 = {
 					["name"] = "blue";
 					["order"] = 8;
 				};
-				["ContentID="] = {
-					["value"] = "";
-					["type"] = "string";
-					["name"] = "ContentID=";
-					["order"] = 13;
+				["red"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "red";
+					["order"] = 6;
 				};
 				["x"] = {
 					["value"] = -201.17756652832;
@@ -313,8 +217,8 @@ local obj1 = {
 					["type"] = "button";
 					["name"] = "Whitelist Target";
 					["value"] = "";
-					["choices"] = "";
 					["order"] = 15;
+					["choices"] = "";
 				};
 				["Max Level"] = {
 					["value"] = 11;
@@ -334,11 +238,107 @@ local obj1 = {
 					["name"] = "h";
 					["order"] = 5;
 				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
+				};
+			};
+		};
+		["grind12_15"] = {
+			["order"] = 2;
+			["fields"] = {
+				["type"] = {
+					["value"] = "Grind Marker";
+					["type"] = "string";
+					["name"] = "type";
+					["order"] = 9;
+				};
+				["blue"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "blue";
+					["order"] = 8;
+				};
 				["red"] = {
 					["value"] = 0;
 					["type"] = "int";
 					["name"] = "red";
 					["order"] = 6;
+				};
+				["x"] = {
+					["value"] = -349.39486694336;
+					["type"] = "float";
+					["name"] = "x";
+					["order"] = 2;
+				};
+				["z"] = {
+					["value"] = -359.0158996582;
+					["type"] = "float";
+					["name"] = "z";
+					["order"] = 4;
+				};
+				["Min Level"] = {
+					["value"] = 12;
+					["type"] = "int";
+					["name"] = "Min Level";
+					["order"] = 11;
+				};
+				["Time (s)"] = {
+					["value"] = 2000;
+					["type"] = "int";
+					["name"] = "Time (s)";
+					["order"] = 10;
+				};
+				["y"] = {
+					["value"] = 19.338037490845;
+					["type"] = "float";
+					["name"] = "y";
+					["order"] = 3;
+				};
+				["NOT ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "NOT ContentID=";
+					["order"] = 14;
+				};
+				["Name"] = {
+					["value"] = "grind12_15";
+					["type"] = "string";
+					["name"] = "Name";
+					["order"] = 1;
+				};
+				["Whitelist Target"] = {
+					["type"] = "button";
+					["name"] = "Whitelist Target";
+					["value"] = "";
+					["order"] = 15;
+					["choices"] = "";
+				};
+				["Max Level"] = {
+					["value"] = 15;
+					["type"] = "int";
+					["name"] = "Max Level";
+					["order"] = 12;
+				};
+				["green"] = {
+					["value"] = 0;
+					["type"] = "int";
+					["name"] = "green";
+					["order"] = 7;
+				};
+				["h"] = {
+					["value"] = -2.5372309684753;
+					["type"] = "float";
+					["name"] = "h";
+					["order"] = 5;
+				};
+				["ContentID="] = {
+					["value"] = "";
+					["type"] = "string";
+					["name"] = "ContentID=";
+					["order"] = 13;
 				};
 			};
 		};
